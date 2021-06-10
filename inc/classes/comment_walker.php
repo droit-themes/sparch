@@ -107,7 +107,7 @@ if ( ! class_exists( 'sparch_Walker_Comment' ) ) {
 
 								if ( '0' === $comment->comment_approved ) {
 									?>
-									<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'sparch' ); ?></p>
+									<p class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'sparch' ); ?></p>
 									<?php
 								}
 
