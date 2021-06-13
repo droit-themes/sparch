@@ -27,10 +27,8 @@ function sparch_after_import_setup( $selected_import ) {
    
     if ( class_exists( 'RevSlider' ) ) {
         $slider = new RevSlider();
-        if ( 'Home Light' == $selected_import['import_file_name'] ) {
-            $hosting_slider = get_template_directory()."/inc/demos/slider-one.zip";
-            $slider->importSliderFromPost( true, true, $hosting_slider );
-        }
+        $hosting_slider = get_template_directory()."/inc/demos/slider-one.zip";
+        $slider->importSliderFromPost( true, true, $hosting_slider );
     }
    
     // Assign menus to their locations.
