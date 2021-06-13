@@ -609,6 +609,10 @@ span.slide-title-color{
 }
 .comment-form .btn-comment-form{
 	background-color:#efefef !important;
+	color: #222;
+}
+.comment-date span[aria-hidden="true"] {
+	display: none !important;
 }
 .comment-form .btn-comment-form:hover{
 	background: #c5e213 !important;

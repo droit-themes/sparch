@@ -1006,6 +1006,8 @@ rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-botto
 .comment-form-cookies-consent{
 	display:none;
 }
-
+.admin-bar .navbar_fixed .navbar{
+  top: 33px;
+}
 
 

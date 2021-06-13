@@ -23,7 +23,7 @@ Redux::set_section( 'sparch', array(
                 'yes' => esc_html__('Full Width', 'sparch'), 
                 'no' => esc_html__('Default', 'sparch'), 
              ), 
-            'default' => 'yes'
+            'default' => 'no'
         ),
         array( 
             'id' => 'sparch_header_contact_no',
