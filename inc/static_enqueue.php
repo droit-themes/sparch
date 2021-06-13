@@ -49,7 +49,6 @@ function sparch_scripts() {
 
     wp_enqueue_script( 'splitting', SPARCH_JS. '/splitting/splitting.min.js', array('jquery'), SPARCH_VERSION, true );
     wp_enqueue_script( 'popper', SPARCH_JS . '/popper.min.js', array('jquery'), SPARCH_VERSION, true );
-   // wp_enqueue_script( 'bootstrap', SPARCH_JS . '/bootstrap.min.js', array('jquery'), SPARCH_VERSION, true );
 
 	wp_enqueue_script( 'parallaxie', SPARCH_JS. '/parallaxie.js', array('jquery'), SPARCH_VERSION, true );
 	wp_enqueue_script( 'magnific-popup', SPARCH_JS . '/jquery.magnific-popup.min.js', array('jquery'), SPARCH_VERSION, true );
