@@ -9467,7 +9467,9 @@ a:active {
 .site-footer a:hover {
     color: #c5e213;
 }
-
+.breadcrumbs__link, .breadcrumbs__link:hover{
+    color: #222
+}
 @media (max-width: 767px) {
     .site-footer {
         text-align: center;
