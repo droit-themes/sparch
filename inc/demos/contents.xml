@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.7.2" created="2021-06-14 05:01" -->
+	<!-- generator="WordPress/5.7.2" created="2021-06-14 05:51" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>sparch</title>
 	<link>https://preview.droitthemes.com/wp/sparch</link>
 	<description>Architecture wordpress theme</description>
-	<pubDate>Mon, 14 Jun 2021 05:01:51 +0000</pubDate>
+	<pubDate>Mon, 14 Jun 2021 05:51:45 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://preview.droitthemes.com/wp/sparch</wp:base_site_url>
@@ -3371,15 +3371,16 @@
 		<dc:creator><![CDATA[dlab10]]></dc:creator>
 		<guid isPermaLink="false">https://preview.droitthemes.com/wp/sparch/sparch/</guid>
 		<description></description>
-		<content:encoded><![CDATA[.elementor-kit-5 a {
-    color: #000 !important;
-}]]></content:encoded>
+		<content:encoded><![CDATA[.elementor-kit-5 .blog_title a {
+    color: #000;
+}
+]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2321</wp:post_id>
 		<wp:post_date><![CDATA[2021-05-27 12:26:22]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-05-27 12:26:22]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-13 12:09:30]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-13 12:09:30]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:44:52]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:44:52]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[sparch]]></wp:post_name>
@@ -3481,10 +3482,10 @@
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>31</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-25 04:35:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[31]]></wp:post_name>
@@ -3582,10 +3583,10 @@
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>33</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-25 04:35:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[33]]></wp:post_name>
@@ -3683,10 +3684,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>34</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-25 04:35:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[34]]></wp:post_name>
@@ -3784,10 +3785,10 @@
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>35</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-25 04:35:38]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[35]]></wp:post_name>
@@ -3885,10 +3886,10 @@
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>37</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-25 04:35:38]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[37]]></wp:post_name>
@@ -3986,10 +3987,10 @@
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>38</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-25 04:35:38]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[38]]></wp:post_name>
@@ -4087,10 +4088,10 @@
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>39</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-25 04:35:38]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[39]]></wp:post_name>
@@ -4188,10 +4189,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>40</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-25 04:41:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[pages]]></wp:post_name>
@@ -4289,10 +4290,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>41</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-25 04:41:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[project]]></wp:post_name>
@@ -4505,10 +4506,10 @@
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>653</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-04-01 06:19:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[653]]></wp:post_name>
@@ -4530,103 +4531,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[612]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[drdt_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-01]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-04]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-05]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-06]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-11]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-15]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-21]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-25]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-05-23]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>https://preview.droitthemes.com/wp/sparch/654/</link>
-		<pubDate>Thu, 01 Apr 2021 06:19:37 +0000</pubDate>
-		<dc:creator><![CDATA[dlab10]]></dc:creator>
-		<guid isPermaLink="false">http://preview.droitthemes.com/wp/sparch/?p=654</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>654</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-04-01 06:19:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[654]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>16</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1024]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[574]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
@@ -4891,6 +4795,99 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[__save_kase_data__]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>https://preview.droitthemes.com/wp/sparch/969/</link>
+		<pubDate>Sun, 04 Apr 2021 11:41:38 +0000</pubDate>
+		<dc:creator><![CDATA[dlab10]]></dc:creator>
+		<guid isPermaLink="false">http://preview.droitthemes.com/wp/sparch/?p=969</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>969</wp:post_id>
+		<wp:post_date><![CDATA[2021-06-14 05:41:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-04-04 11:41:38]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[969]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[41]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[954]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[drdt_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-04]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-05]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-06]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-11]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-15]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-21]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-25]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-05-23]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -6534,6 +6531,103 @@ RAYMOND </h5>
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
+		<link>https://preview.droitthemes.com/wp/sparch/654/</link>
+		<pubDate>Thu, 01 Apr 2021 06:19:37 +0000</pubDate>
+		<dc:creator><![CDATA[dlab10]]></dc:creator>
+		<guid isPermaLink="false">http://preview.droitthemes.com/wp/sparch/?p=654</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>654</wp:post_id>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-04-01 06:19:37]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[654]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>16</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1024]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[574]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[drdt_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-04]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-05]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-06]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-11]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-15]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-21]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-04-25]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-05-23]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
 		<link>https://preview.droitthemes.com/wp/sparch/967/</link>
 		<pubDate>Sun, 04 Apr 2021 11:41:39 +0000</pubDate>
 		<dc:creator><![CDATA[dlab10]]></dc:creator>
@@ -6542,10 +6636,10 @@ RAYMOND </h5>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>967</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-04-04 11:41:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[967]]></wp:post_name>
@@ -6635,10 +6729,10 @@ RAYMOND </h5>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>968</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-04-04 11:41:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[968]]></wp:post_name>
@@ -6719,99 +6813,6 @@ RAYMOND </h5>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[]]></title>
-		<link>https://preview.droitthemes.com/wp/sparch/969/</link>
-		<pubDate>Sun, 04 Apr 2021 11:41:38 +0000</pubDate>
-		<dc:creator><![CDATA[dlab10]]></dc:creator>
-		<guid isPermaLink="false">http://preview.droitthemes.com/wp/sparch/?p=969</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>969</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-04-04 11:41:38]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[969]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[41]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[954]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[drdt_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-04]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-05]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-06]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-11]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-15]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-21]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-04-25]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-05-23]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Portfolio Single]]></title>
 		<link>https://preview.droitthemes.com/wp/sparch/portfolio-single/</link>
 		<pubDate>Sun, 04 Apr 2021 11:42:48 +0000</pubDate>
@@ -6821,10 +6822,10 @@ RAYMOND </h5>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>971</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-04-04 11:42:48]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[portfolio-single]]></wp:post_name>
@@ -6914,10 +6915,10 @@ RAYMOND </h5>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1016</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-04-05 07:57:30]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[blog-details]]></wp:post_name>
@@ -7003,10 +7004,10 @@ RAYMOND </h5>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1024</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-04-06 03:48:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[blogs]]></wp:post_name>
@@ -7088,10 +7089,10 @@ RAYMOND </h5>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1395</wp:post_id>
-		<wp:post_date><![CDATA[2021-06-14 05:00:05]]></wp:post_date>
+		<wp:post_date><![CDATA[2021-06-14 05:41:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-04-11 05:17:59]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-06-14 05:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-06-14 05:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-06-14 05:41:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-06-14 05:41:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[1395]]></wp:post_name>

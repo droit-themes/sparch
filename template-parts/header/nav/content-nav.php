@@ -8,7 +8,7 @@
                 wp_nav_menu( array(
                         'menu_class' => 'navbar-nav menu ms-lg-auto',
                         'container'  => '',
-                        'theme_location' => 'primary',
+                        'theme_location' => 'main_menu',
                         'walker'         => new sparch_Navwalker(),
                         'fallback_cb'     => false,
                 ) ); 

@@ -32,7 +32,7 @@ function sparch_after_import_setup( $selected_import ) {
     }
    
     // Assign menus to their locations.
-    $main_menu = get_term_by( 'name', 'Primary', 'nav_menu' );
+    $main_menu = get_term_by( 'name', 'Main Menu', 'nav_menu' );
 
     set_theme_mod( 'nav_menu_locations', array(
             'main_menu' => $main_menu->term_id,

@@ -84,8 +84,8 @@ if ( ! function_exists( 'sparch_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'primary' => esc_html__( 'Primary', 'sparch' ),
-				'main_menu' => esc_html__( 'Top Menu', 'sparch' ),
+				'main_menu' => esc_html__( 'Main Menu', 'sparch' ),
+				'top_menu' => esc_html__( 'Top Menu', 'sparch' ),
 			)
 		);
 
