@@ -1,173 +1,1006 @@
-# Copyright (C) 2020 Automattic
-# This file is distributed under the GNU General Public License v2 or later.
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sparch\n"
+"POT-Creation-Date: 2021-06-14 15:25+0600\n"
+"PO-Revision-Date: 2021-06-14 15:10+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-06-10 15:12+0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: Poedit 3.0\n"
-"X-Domain: _s\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#. Theme Name of the theme
-msgid "_s"
-msgstr ""
-
-#. Theme URI of the theme
-msgid "https://droitthemes.com/"
-msgstr ""
-
-#. Description of the theme
-msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>droitthemes</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for."
-msgstr ""
-
-#. Author of the theme
-msgid "Automattic"
-msgstr ""
-
-#. Author URI of the theme
-msgid "https://automattic.com/"
-msgstr ""
-
-#: 404.php:18
+#: 404.php:26
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr ""
-
-#: 404.php:31
-msgid "Most Used Categories"
-msgstr ""
-
-#. translators: %1$s: smiley
-#: 404.php:49
-msgid "Try looking in the monthly archives. %1$s"
+#: 404.php:30
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
 msgstr ""
 
 #. translators: 1: title.
 #: comments.php:35
-msgid "One thought on &ldquo;%1$s&rdquo;"
+msgid "One Comment"
 msgstr ""
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:41
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+#, php-format
+msgctxt "sparch"
+msgid "%1$s Comments &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:68
+#: comments.php:70
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:18
-msgid "https://wordpress.org/"
+#: comments.php:90
+msgid "Comment"
 msgstr ""
 
-#. translators: %s: CMS name, i.e. WordPress.
-#: footer.php:21
-msgid "Proudly powered by %s"
+#: functions.php:87
+msgid "Main Menu"
 msgstr ""
 
-#. translators: 1: Theme name, 2: Theme author.
-#: footer.php:27
-msgid "Theme: %1$s by %2$s."
+#: functions.php:88
+msgid "Top Menu"
 msgstr ""
 
-#: functions.php:53
-msgid "Primary"
-msgstr ""
-
-#: functions.php:130
+#: functions.php:162
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:132
+#: functions.php:164
 msgid "Add widgets here."
 msgstr ""
 
-#: header.php:26
+#: header.php:33
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:49
-msgid "Primary Menu"
+#: inc/breadcrumbs.php:11
+msgid "Home"
 msgstr ""
 
-#. translators: %s: post date.
-#: inc/template-tags.php:30
-msgctxt "post date"
-msgid "Posted on %s"
+#: inc/breadcrumbs.php:12
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: inc/breadcrumbs.php:13
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: inc/breadcrumbs.php:14
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: inc/breadcrumbs.php:15
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:16
+msgid "Error 404"
+msgstr ""
+
+#: inc/breadcrumbs.php:17
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:18
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/classes/comment_walker.php:77
+msgid "says:"
+msgstr ""
+
+#. translators: 1: Comment date, 2: Comment time.
+#: inc/classes/comment_walker.php:84
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/classes/comment_walker.php:98
+msgid "Edit"
+msgstr ""
+
+#: inc/classes/comment_walker.php:110
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/one_click_demo_config.php:9
+msgid "All Demos"
+msgstr ""
+
+#: inc/plugin_activation.php:40
+msgid "Elementor"
+msgstr ""
+
+#: inc/plugin_activation.php:46
+msgid "Droit Addons For Elementor"
+msgstr ""
+
+#: inc/plugin_activation.php:52
+msgid "Sparch Core"
+msgstr ""
+
+#: inc/plugin_activation.php:64
+msgid "Droit Header, Footer and MegaMenu Builder"
+msgstr ""
+
+#: inc/plugin_activation.php:76
+msgid "Advanced Custom Fields-pro"
+msgstr ""
+
+#: inc/plugin_activation.php:86
+msgid "Slider Revolution"
+msgstr ""
+
+#: inc/plugin_activation.php:98
+msgid "Redux Framework"
+msgstr ""
+
+#: inc/plugin_activation.php:104
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/plugin_activation.php:110
+msgid "One Click Demo Import"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: inc/template-functions.php:46
+#, php-format
+msgid "Continue reading %s"
 msgstr ""
 
 #. translators: %s: post author.
-#: inc/template-tags.php:46
+#: inc/template-tags.php:29
+#, php-format
 msgctxt "post author"
-msgid "by %s"
+msgid "%s"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:63
+#: inc/template-tags.php:46
 msgid ", "
 msgstr ""
 
 #. translators: 1: list of categories.
-#: inc/template-tags.php:66
+#: inc/template-tags.php:49
+#, php-format
 msgid "Posted in %1$s"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:70
+#: inc/template-tags.php:53
 msgctxt "list item separator"
 msgid ", "
 msgstr ""
 
 #. translators: 1: list of tags.
-#: inc/template-tags.php:73
+#: inc/template-tags.php:56
+#, php-format
 msgid "Tagged %1$s"
 msgstr ""
 
 #. translators: %s: post title
-#: inc/template-tags.php:83
+#: inc/template-tags.php:66
+#, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:100 template-parts/content-page.php:39
+#: inc/template-tags.php:83 template-parts/content-page.php:39
+#, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: inc/woocommerce.php:186
-msgid "View your shopping cart"
+#: inc/template-tags.php:312
+msgid "About the Author"
 msgstr ""
 
-#. translators: number of items in the mini cart.
-#: inc/woocommerce.php:190
-msgid "%d item"
-msgid_plural "%d items"
+#: inc/tgm/class-tgm-plugin-activation.php:302
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:303
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:305
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:307
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:308
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:311
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:317
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:323
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:329
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:346
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:351
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:356
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:360
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:361
+#: inc/tgm/class-tgm-plugin-activation.php:886
+#: inc/tgm/class-tgm-plugin-activation.php:2592
+#: inc/tgm/class-tgm-plugin-activation.php:3639
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:362
+#: inc/tgm/class-tgm-plugin-activation.php:3218
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:363
+#: inc/tgm/class-tgm-plugin-activation.php:3011
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:369
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:370
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:371
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:372
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:575
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:576
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:693
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:993
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:993
+#: inc/tgm/class-tgm-plugin-activation.php:996
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:996
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1180
+#: inc/tgm/class-tgm-plugin-activation.php:3007
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:2041
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2332
+msgid "Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2335
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2351
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2354
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2357
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2374
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2378
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2380
+msgid "Active"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2386
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2389
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2392
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2401
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2447
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2451
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2455
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2459
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2541
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2557
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2569
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2592
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2606
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2607
+msgid "Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+msgid "Type"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2612
+msgid "Version"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2613
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2662
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2667
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2673
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2743
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2776
+msgid "Install"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2782
+msgid "Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2785
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2816
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2818
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2859
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2861
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2967
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3217
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3557
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3560
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3562
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3566
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3568
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3568
+#: inc/tgm/class-tgm-plugin-activation.php:3576
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3568
+#: inc/tgm/class-tgm-plugin-activation.php:3576
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3569
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3571
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3574
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3576
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3577
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3579
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/options/opt-config.php:17
+msgid "Sparch Options"
+msgstr ""
+
+#: lib/options/opt_banner.php:4
+msgid "Banner Setting"
+msgstr ""
+
+#: lib/options/opt_banner.php:11
+msgid "Page Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:19
+msgid "Show Page Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:20
+msgid "Show Hide Page Banner Globally "
+msgstr ""
+
+#: lib/options/opt_banner.php:22 lib/options/opt_banner.php:86
+#: lib/options/opt_banner.php:157 lib/options/opt_banner.php:220
+#: lib/options/opt_banner_404.php:13
+msgid "Show Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:23 lib/options/opt_banner.php:87
+#: lib/options/opt_banner.php:158 lib/options/opt_banner.php:221
+#: lib/options/opt_banner_404.php:14
+msgid "Hide Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:30
+msgid "Show Page Breadcrumb"
+msgstr ""
+
+#: lib/options/opt_banner.php:32 lib/options/opt_banner.php:42
+#: lib/options/opt_banner.php:96 lib/options/opt_banner.php:106
+#: lib/options/opt_banner.php:167 lib/options/opt_banner.php:177
+#: lib/options/opt_banner.php:230 lib/options/opt_banner.php:240
+#: lib/options/opt_banner.php:250 lib/options/opt_banner_404.php:23
+#: lib/options/opt_banner_404.php:40
+msgid "Show"
+msgstr ""
+
+#: lib/options/opt_banner.php:33 lib/options/opt_banner.php:43
+#: lib/options/opt_banner.php:97 lib/options/opt_banner.php:107
+#: lib/options/opt_banner.php:168 lib/options/opt_banner.php:178
+#: lib/options/opt_banner.php:231 lib/options/opt_banner.php:241
+#: lib/options/opt_banner.php:251 lib/options/opt_banner_404.php:24
+#: lib/options/opt_banner_404.php:41
+msgid "Hide"
+msgstr ""
+
+#: lib/options/opt_banner.php:40
+msgid "Show Page Title"
+msgstr ""
+
+#: lib/options/opt_banner.php:51 lib/options/opt_banner.php:121
+#: lib/options/opt_banner.php:186 lib/options/opt_banner.php:259
+#: lib/options/opt_banner_404.php:49 lib/options/opt_banner_search.php:14
+msgid "Upload Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:75
+msgid "Blog Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:83
+msgid "Show Blog Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:84
+msgid "Show Hide Blog Banner Globally "
+msgstr ""
+
+#: lib/options/opt_banner.php:94
+msgid "Show Blog Breadcrumb"
+msgstr ""
+
+#: lib/options/opt_banner.php:104
+msgid "Show Blog Title"
+msgstr ""
+
+#: lib/options/opt_banner.php:112
+msgid "Blog title"
+msgstr ""
+
+#: lib/options/opt_banner.php:146
+msgid "Single Blog Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:154
+msgid "Show Single Blog Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:155
+msgid "Show Hide Banner Globally "
+msgstr ""
+
+#: lib/options/opt_banner.php:165 lib/options/opt_banner.php:228
+#: lib/options/opt_banner_404.php:38
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: lib/options/opt_banner.php:175 lib/options/opt_banner_404.php:21
+msgid "Show Title"
+msgstr ""
+
+#: lib/options/opt_banner.php:210
+msgid "Archive Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:218
+msgid "Show Archive  Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:238
+msgid "Show Archive Title"
+msgstr ""
+
+#: lib/options/opt_banner.php:248
+msgid "Show Archive Description"
+msgstr ""
+
+#: lib/options/opt_banner_404.php:3
+msgid "404 Banner"
+msgstr ""
+
+#: lib/options/opt_banner_404.php:11
+msgid "Show 404  Banner"
+msgstr ""
+
+#: lib/options/opt_banner_404.php:29 lib/options/opt_banner_404.php:32
+msgid "404 Banner Titile"
+msgstr ""
+
+#: lib/options/opt_banner_search.php:4
+msgid "Search Banner"
+msgstr ""
+
+#: lib/options/opt_blog.php:4
+msgid "Blog"
+msgstr ""
+
+#: lib/options/opt_blog.php:11 lib/options/opt_page.php:13
+msgid "Layout"
+msgstr ""
+
+#: lib/options/opt_blog.php:19
+msgid "Blog Layout"
+msgstr ""
+
+#: lib/options/opt_blog.php:20
+msgid "Select your blog Layout"
+msgstr ""
+
+#: lib/options/opt_blog.php:39
+msgid "Read More Button Text"
+msgstr ""
+
+#: lib/options/opt_blog.php:47
+msgid "Display Social Share?"
+msgstr ""
+
+#: lib/options/opt_footer.php:4
+msgid "Footer"
+msgstr ""
+
+#: lib/options/opt_footer.php:11
+msgid "Content"
+msgstr ""
+
+#: lib/options/opt_footer.php:17
+msgid "Copyright Text"
+msgstr ""
+
+#: lib/options/opt_header.php:4
+msgid "Header"
+msgstr ""
+
+#: lib/options/opt_header.php:13
+msgid "Logo"
+msgstr ""
+
+#: lib/options/opt_header.php:21
+msgid "Header Format "
+msgstr ""
+
+#: lib/options/opt_header.php:23
+msgid "Full Width"
+msgstr ""
+
+#: lib/options/opt_header.php:24
+msgid "Default"
+msgstr ""
+
+#: lib/options/opt_header.php:30
+msgid "Header Contact Number"
+msgstr ""
+
+#: lib/options/opt_header.php:35
+msgid "Upload logo"
+msgstr ""
+
+#: lib/options/opt_header.php:36
+msgid "Upload here a image file for your logo"
+msgstr ""
+
+#: lib/options/opt_header.php:45
+msgid "Sticky header logo"
+msgstr ""
+
+#: lib/options/opt_header.php:54
+msgid "Retina Logo"
+msgstr ""
+
+#: lib/options/opt_header.php:55 lib/options/opt_header.php:62
+msgid "The retina logo should be double (2x) of your original logo"
+msgstr ""
+
+#: lib/options/opt_header.php:61
+msgid "Retina Sticky Logo"
+msgstr ""
+
+#: lib/options/opt_header.php:68
+msgid "Logo dimensions"
+msgstr ""
+
+#: lib/options/opt_header.php:69
+msgid "Set a custom height width for your upload logo."
+msgstr ""
+
+#: lib/options/opt_header.php:77
+msgid "Padding"
+msgstr ""
+
+#: lib/options/opt_header.php:78
+msgid ""
+"Padding around the logo. Input the padding as clockwise (Top Right Bottom "
+"Left)"
+msgstr ""
+
+#: lib/options/opt_header.php:91
+msgid "Menu Setting"
+msgstr ""
+
+#: lib/options/opt_header.php:99
+msgid "Show Search Icon"
+msgstr ""
+
+#: lib/options/opt_header.php:101
+msgid "Yes"
+msgstr ""
+
+#: lib/options/opt_header.php:102
+msgid "No"
+msgstr ""
+
+#: lib/options/opt_page.php:4 template-parts/blog/content/content-single.php:20
+msgid "Page"
+msgstr ""
+
+#: lib/options/opt_page.php:22
+msgid "Page Layout"
+msgstr ""
+
+#: lib/options/opt_page.php:23
+msgid "Select your Page Layout"
+msgstr ""
+
+#: lib/options/opt_style.php:4
+msgid "Style"
+msgstr ""
+
+#: lib/options/opt_style.php:13
+msgid "Color"
+msgstr ""
+
+#: lib/options/opt_style.php:22
+msgid "Primary Color"
+msgstr ""
+
+#: lib/options/opt_style.php:30
+msgid "Link Color"
+msgstr ""
+
+#: lib/options/opt_style.php:38
+msgid "Secondary Color"
+msgstr ""
+
+#: lib/options/opt_style.php:51
+msgid "Body Color"
+msgstr ""
+
+#: searchform.php:24
+msgid "Search"
+msgstr ""
+
 #. translators: %s: search query.
-#: search.php:22
+#: template-parts/banner/banner-search.php:27
+#, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: single.php:23
-msgid "Previous:"
+#: template-parts/blog/content/content-excerpt.php:23
+msgid "Featured"
 msgstr ""
 
-#: single.php:24
-msgid "Next:"
+#. translators: %: page number.
+#: template-parts/blog/content/content-single.php:23
+msgid "Page %"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/blog/content/content.php:40 template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/blog/content/content.php:53
+#: template-parts/content-page.php:25 template-parts/content.php:53
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/blog/related-post.php:2
+msgid "Related posts"
 msgstr ""
 
 #: template-parts/content-none.php:14
@@ -176,22 +1009,52 @@ msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
 #: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
-#: template-parts/content-page.php:25 template-parts/content.php:53
-msgid "Pages:"
+#: template-parts/header/nav/content-nav-serch.php:16
+msgid "Search..."
 msgstr ""
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:40
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+#. Theme Name of the plugin/theme
+msgid "Sparch"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://preview.droitthemes.com/wp/sparch/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Sparch is a WordPress theme which perfectly fits an architectural bureau, an "
+"engineering company, a design studio. It was built based in the latest "
+"trends in design style and typography choices. The design is minimalistic "
+"and eye-catching, which helps the customers to pay their attention only to "
+"the important details."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DroitThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/droitthemes"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "About us"
 msgstr ""
