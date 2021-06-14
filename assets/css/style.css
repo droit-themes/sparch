@@ -8615,8 +8615,8 @@ dl dd a:hover {
 }
 
 .comment-form .form-group input {
-    border-radius: 3px;
-    border: 1px solid #e5e5e5;
+    border-radius: 1px;
+    border: 1px solid #C9C9C9;
     height: 60px;
     line-height: 60px;
     font-size: 15px;

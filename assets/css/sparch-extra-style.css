@@ -605,17 +605,18 @@ span.slide-title-color{
 }
 
 .comment-form .btn-comment-form{
-	padding:5px 30px !important;
-}
-.comment-form .btn-comment-form{
-	background-color:#efefef !important;
-	color: #222;
+	background-color: #C5E213;
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+	border-radius: 0;
 }
 .comment-date span[aria-hidden="true"] {
 	display: none !important;
 }
 .comment-form .btn-comment-form:hover{
-	background: #c5e213 !important;
+	background: #000000 !important;
     color: #fff !important;
 }
 
