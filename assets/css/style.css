@@ -7859,7 +7859,7 @@ blockquote cite br {
     padding-top: 35px;
 }
 
-.pagination .page-numbers {
+.pagination .page-numbers, .page-links a, .page-links span {
     width: 44px;
     height: 44px;
     line-height: 42px;
@@ -7877,7 +7877,7 @@ blockquote cite br {
     color: #7b8a9e;
 }
 
-.pagination .page-numbers.current, .pagination .page-numbers:hover {
+.pagination .page-numbers.current, .pagination .page-numbers:hover, .page-links span, .page-links a:hover {
     background: #c5e213;
     border-color: #c5e213;
     color: #fff;
@@ -9409,7 +9409,6 @@ a:active {
 }
 
 .text-white h2, .text-white .page-title {
-    color: #fff !important;
     line-height: 1.5;
     word-break: break-word;
     margin-top: 0;
@@ -9425,24 +9424,16 @@ a:active {
     color: #fff;
 }
 
-.text-white .post-meta {
-    color: #fff;
-}
-
-.text-white .post-meta span:not(:last-child):after {
-    background: #fff;
-}
-
-.text-white .post-meta a {
-    color: #fff;
-}
 
 .text-white .post-meta a:focus {
     outline: none;
 }
 
 .text-white .post-meta a:hover {
-    color: #c5e213;
+    color: #fff;
+}
+.elementor-kit-5 a {
+    color: #000!important;
 }
 
 .breadcrumb_content {

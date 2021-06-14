@@ -25,7 +25,7 @@ if(!class_exists('Redux')){
 <div class="blog_breadcrumbs_area_two banner-with-color">
 <?php endif; ?>
     <div class="container">
-        <div class="breadcrumb_content text-white text-center">
+        <div class="breadcrumb_content text-center">
             <?php if(have_posts() && $how_title == 'show') {
                         the_archive_title( '<h1 class="page-title page_title">', '</h1>' );
                     }

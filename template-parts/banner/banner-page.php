@@ -32,7 +32,7 @@ if($show_banner == 'show') :
 <div class="blog_breadcrumbs_area_two banner-with-color">
 <?php endif; ?>       
         <div class="container">
-            <div class="breadcrumb_content text-white text-center">
+            <div class="breadcrumb_content text-center">
                <?php if($how_title == 'show') : ?>
                 <h2 class="page_title"><?php single_post_title(); ?></h2>
                <?php endif;
