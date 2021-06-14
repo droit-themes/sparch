@@ -1009,5 +1009,14 @@ rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-botto
 .admin-bar .navbar_fixed .navbar{
   top: 33px;
 }
-
+.blog_breadcrumbs_area_two.parallaxie h2.page_title, 
+.blog_breadcrumbs_area_two.parallaxie h1.page_title,
+.blog_breadcrumbs_area_two.parallaxie .post-meta,
+.blog_breadcrumbs_area_two.parallaxie .vcard a,
+.blog_breadcrumbs_area_two.parallaxie *{
+   color: #fff !important;
+}
+.archive-description{
+	margin-bottom: 30px;
+}
 
