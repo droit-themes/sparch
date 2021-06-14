@@ -101,8 +101,8 @@ function sparch_resister_required_plugin() {
         ),
 
         array(
-            'name'      => esc_html__( 'Metform', 'sparch' ),
-            'slug'      => 'metform',
+            'name'      => esc_html__( 'Contact Form 7', 'sparch' ),
+            'slug'      => 'contact-form-7',
             'required'  => true,
         ),
 
