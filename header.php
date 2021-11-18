@@ -51,7 +51,7 @@ $sparch_header_contact_no = sparch_options('sparch_header_contact_no');
 					<img src="<?php  echo esc_url($logo_sticky); ?>" <?php echo sparch_extention_wp_kses($logo_sticky_srcset); ?>  alt="<?php bloginfo('name'); ?>" /></a>
 
 					<?php if(!empty( $sparch_header_contact_no )): ?>
-					<a class="number" href="tel:<?php echo esc_html__($sparch_header_contact_no,'sparch'); ?>"><?php echo esc_html__($sparch_header_contact_no,'sparch'); ?></a>
+					<a class="number" href="tel:<?php echo sparch_extention_wp_kses($sparch_header_contact_no); ?>"><?php echo sparch_extention_wp_kses($sparch_header_contact_no); ?></a>
 					<?php endif; ?>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -64,7 +64,7 @@ $sparch_header_contact_no = sparch_options('sparch_header_contact_no');
 						wp_nav_menu( array(
 								'menu_class' => 'nav navbar-nav ml-auto',
 								'container'  => '',
-								'theme_location' => 'primary',
+								'theme_location' => 'main_menu',
 								'depth' 		 => 3,
 								'walker'         => new sparch_Navwalker_Full(),
 								'fallback_cb'    => false,

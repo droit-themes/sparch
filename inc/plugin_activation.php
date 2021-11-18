@@ -51,7 +51,7 @@ function sparch_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'Sparch Core', 'sparch' ), // The plugin name.
             'slug'               => 'sparch-core', // The plugin slug (typically the folder name).
-            'source'             => 'https://preview.droitthemes.com/wp/sparch/downloadfile/sparch-core.zip', // The plugin source.
+            'source'             => 'https://preview.droitthemes.net/wp/sparch/downloadfile/sparch-core.zip', // The plugin source.
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
@@ -63,7 +63,7 @@ function sparch_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'Droit Header, Footer and MegaMenu Builder', 'sparch' ), // The plugin name.
             'slug'               => 'droit-header-footer-builder', // The plugin slug (typically the folder name).
-            'source'             => 'https://preview.droitthemes.com/wp/sparch/downloadfile/droit-header-footer-builder.zip', // The plugin source.
+            'source'             => 'https://wpplugin.droitthemes.net/droit-header-footer-builder.zip', // The plugin source.
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
@@ -75,7 +75,7 @@ function sparch_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'Advanced Custom Fields-pro', 'sparch' ), // The plugin name.
             'slug'               => 'advanced-custom-fields-pro', // The plugin slug (typically the folder name).
-            'source'             => 'https://droitthemes.com/wpplugin/advanced-custom-fields-pro.zip', // The plugin source.
+            'source'             => 'https://wpplugin.droitthemes.net/advanced-custom-fields-pro.zip', // The plugin source.
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
@@ -85,7 +85,7 @@ function sparch_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'Slider Revolution', 'sparch' ), // The plugin name.
             'slug'               => 'slider-revolution', // The plugin slug (typically the folder name).
-            'source'             => 'https://droitthemes.com/wpplugin/slider-revolution.zip', // The plugin source.
+            'source'             => 'https://wpplugin.droitthemes.net/revslider.zip', // The plugin source.
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.

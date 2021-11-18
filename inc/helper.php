@@ -171,3 +171,11 @@ if(!function_exists('sparch_page_meta')){
     }
 
  }
+
+ function wp_body_classes( $classes ) {
+     if(is_front_page()) {
+        $classes[] = 'sparch-front-page';
+     }
+    return $classes;
+}
+add_filter( 'body_class','wp_body_classes' );

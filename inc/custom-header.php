@@ -53,6 +53,7 @@ if ( ! function_exists( 'sparch_header_style' ) ) :
 
 		// If we get this far, we have custom styles. Let's do this.
 		?>
+		
 		<style type="text/css">
 		<?php
 		// Has the text been hidden?

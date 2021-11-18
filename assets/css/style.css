@@ -7488,7 +7488,7 @@ textarea.form-control-lg {
 }
 
 .blog_title {
-    font-size: 28px;
+    font-size: 28px !important;
     line-height: 1.35;
     color: #000;
     font-weight: 600;
@@ -7579,7 +7579,7 @@ textarea.form-control-lg {
     content: "";
     width: 1px;
     height: 12px;
-    background: #787878;
+    background: #FFFFFF;
     display: inline-block;
     margin: 0px 3px;
 }
@@ -8256,16 +8256,15 @@ blockquote cite br {
 }
 
 .blog_single_info .page-links .post-page-numbers {
-    font-size: 18px;
+    font-size: 16px;
+    min-width: 80px;
     color: #000;
     text-decoration: none;
     margin-right: 12px;
+    padding: 0px;
+    border-radius: 0;
 }
 
-.blog_single_info .page-links .post-page-numbers.current {
-    color: #c5e213;
-    border-bottom: 1px solid #c5e213;
-}
 
 .blog_single_info .wp-block-table table {
     margin-bottom: 30px;
@@ -8512,7 +8511,7 @@ dl dd a:hover {
     flex: 1;
 }
 
-.comment_box .comments_item .content h4 {
+.comment_box .comments_item .content .fn{
     font-size: 18px;
     font-weight: 600;
     color: #000;
@@ -8913,6 +8912,9 @@ dl dd a:hover {
     text-decoration: none;
     transition: all 0.2s linear;
 }
+.calendar_wrap tbody td a, .wp-block-calendar tbody td a:hover{
+    color: #000000;
+}
 
 .calendar_wrap .wp-calendar-nav a:hover, .wp-block-calendar .wp-calendar-nav a:hover {
     color: #c5e213;
@@ -9256,7 +9258,7 @@ dl dd a:hover {
 .blog_breadcrumbs_area_two.blog-single-page,
 .blog_breadcrumbs_area_two.archive-banner,
 .blog_breadcrumbs_area_two.banner-404 {
-    padding: 135px 0px;
+    padding: 90px 0px 110px 0px;
     position: relative;
     z-index: 1;
 }
@@ -9272,11 +9274,10 @@ dl dd a:hover {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .parallaxie {
-    background-attachment: fixed !important;
+    background-attachment: fixed;
 }
 
 /*
@@ -9306,6 +9307,7 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     margin: 0.67em 0;
+    line-height: 50px;
 }
 
 h2 {
@@ -9437,7 +9439,8 @@ a:active {
 }
 
 .breadcrumb_content {
-    max-width: 780px;
+    width: auto;
+	text-align:left;
     margin: 0px auto;
 }
 

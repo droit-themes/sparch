@@ -199,7 +199,7 @@ if(!function_exists('sparch_wrapper_start')) {
 
 		?>
 		 <div class="container sec_padding">
-			<div class="<?php esc_attr_e($row_class,'sparch'); ?>">
+			<div class="<?php echo  esc_attr($row_class); ?>">
 				<div class="col-lg-<?php echo esc_attr( $col ); ?>">
 		<?php
      

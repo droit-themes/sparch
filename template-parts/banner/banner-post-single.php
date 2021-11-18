@@ -26,7 +26,7 @@ if($show_banner == 'show') :
 ?>
 
 <?php if($banner_background_url != '') :  ?>
-<div class="blog_breadcrumbs_area_two parallaxie" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
+<div class="blog_breadcrumbs_area_two" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
 <div class="overlay_bg"></div>
 <?php else: ?>
 <div class="blog_breadcrumbs_area_two banner-with-color">
@@ -34,7 +34,7 @@ if($show_banner == 'show') :
         <div class="container">
             <div class="breadcrumb_content text-center">
                <?php if($how_title == 'show') : ?>
-                <h2 class="page_title"><?php single_post_title(); ?></h2>
+                <h1 class="page-title page_title"><?php single_post_title(); ?></h1>
                 <div class="post-meta">
                     <?php 
                     sparch_posted_on();

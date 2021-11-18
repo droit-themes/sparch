@@ -4,13 +4,13 @@ Theme URI: http://preview.droitthemes.com/wp/sparch/
 Author: DroitThemes
 Author URI: https://themeforest.net/user/droitthemes
 Description: Sparch is a WordPress theme which perfectly fits an architectural bureau, an engineering company, a design studio. It was built based in the latest trends in design style and typography choices. The design is minimalistic and eye-catching, which helps the customers to pay their attention only to the important details.
-Version: 0.0.3
+Version: 0.0.5
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: sparch
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Tags: wp-theme, WordPress-Theme, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned.
@@ -959,7 +959,7 @@ textarea {
 span.post-date {
     font-size: 14px;
     margin-top: 10px;
-    font-weight: 500;
+    font-weight: 600;
 }
   
 h3.dl_portfolio_title{
@@ -977,21 +977,33 @@ span.end-number{
 	vertical-align: top !important;
 	display: block;
 	text-align: right !important;
-	margin-top:0px !important;
+	margin-top:-120px !important;
+	margin-right:-20px !important;
 }
 
-#rev_slider_2_1_wrapper .persephone .tp-bullet{
+#rev_slider_1_1_wrapper .persephone .tp-bullet{
 	width: 20px !important;
     height: 4px !important;
     background: #fff !important;
     opacity: 1;
 	border:none;
 }
-#rev_slider_2_1_wrapper .persephone .tp-bullet:hover, #rev_slider_2_1_wrapper .persephone .tp-bullet.selected{
+#rev_slider_1_1_wrapper .persephone .tp-bullet:hover, #rev_slider_1_1_wrapper .persephone .tp-bullet.selected{
  background: #C5E213 !important;	
 }
 rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-bottom.nav-dir-horizontal{
 	left:48% !important; 
+}
+
+@media (max-width:1024px) and (min-width: 769px) {
+rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-bottom.nav-dir-horizontal {
+    	left: 55% !important;
+	}
+}
+@media (max-width:2560px) and (min-width: 2200px) {
+rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-bottom.nav-dir-horizontal {
+    	left: 48.50% !important;
+	}
 }
 
 .elementor-kit-5 button{
@@ -1009,14 +1021,17 @@ rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-botto
 .admin-bar .navbar_fixed .navbar{
   top: 33px;
 }
-.blog_breadcrumbs_area_two.parallaxie h2.page_title, 
-.blog_breadcrumbs_area_two.parallaxie h1.page_title,
-.blog_breadcrumbs_area_two.parallaxie .post-meta,
-.blog_breadcrumbs_area_two.parallaxie .vcard a,
-.blog_breadcrumbs_area_two.parallaxie *{
+.blog_breadcrumbs_area_two h2.page_title, 
+.blog_breadcrumbs_area_two h1.page_title,
+.blog_breadcrumbs_area_two .post-meta,
+.blog_breadcrumbs_area_two .vcard a,
+.blog_breadcrumbs_area_two *{
    color: #fff !important;
+	margin-bottom:5px;
 }
 .archive-description{
 	margin-bottom: 30px;
 }
+
+
 

@@ -307,6 +307,8 @@ if(!function_exists('sparch_about_author')) {
 	
 	function sparch_about_author() {
 		global $post;
+		$bio =  get_the_author_meta( 'description',$post->post_author);
+		if(!empty($bio)):
       ?>
 	  <div class="about-autheor">
 		<h3 class="comment-reply-title"><?php echo esc_html__( 'About the Author', 'sparch' ); ?></h3>
@@ -323,5 +325,6 @@ if(!function_exists('sparch_about_author')) {
 		</div>
 	  </div>
 	  <?php 
+	  endif;
 	}
 }

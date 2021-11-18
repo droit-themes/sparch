@@ -44,7 +44,7 @@
                     "key": "field_60c5ae3bbccb8",
                     "label": "LInk",
                     "name": "link",
-                    "type": "url",
+                    "type": "text",
                     "instructions": "",
                     "required": 1,
                     "conditional_logic": 0,
@@ -53,8 +53,11 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "#",
-                    "placeholder": ""
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 },
                 {
                     "key": "field_60c5ae49bccb9",
@@ -95,5 +98,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1623570171
+    "modified": 1632829493
 }
