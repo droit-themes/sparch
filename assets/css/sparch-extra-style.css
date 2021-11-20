@@ -194,6 +194,9 @@
 	position: relative;
 	transition: color 0.5s ease;
   }
+  .admin-bar .main_menu .navbar .nav.navbar-nav li a {
+	font: 15px/138px "Poppins", sans-serif;
+  }
   .main_menu .navbar .nav.navbar-nav li a:after {
 	display: none;
   }
