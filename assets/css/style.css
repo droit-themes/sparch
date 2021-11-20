@@ -8193,8 +8193,12 @@ blockquote cite br {
     margin-bottom: 10px;
     display: inline-block;
 }
+.sidebar_right .wp-block-search__button-outside label.wp-block-search__label{
+   display: none;
+}
 
-.blog_single_info .wp-block-search input {
+.blog_single_info .wp-block-search input,
+.sidebar_right .wp-block-search .wp-block-search__input {
     border-radius: 3px;
     border: 1px solid #e5e5e5;
     height: 60px;
@@ -8205,13 +8209,18 @@ blockquote cite br {
     box-shadow: none;
     transition: all 0.2s linear;
 }
-
-.blog_single_info .wp-block-search input:focus {
+.sidebar_right .wp-block-search .wp-block-search__input {
+    height: 50px;
+    line-height: 50px;
+}
+.blog_single_info .wp-block-search input:focus,
+.sidebar_right .wp-block-search .wp-block-search__input:focus {
     outline: none;
     border-color: #c5e213;
 }
 
-.blog_single_info .wp-block-search button {
+.blog_single_info .wp-block-search button,
+.sidebar_right .wp-block-search .wp-block-search__button {
     border: 0px;
     padding: 11px 53px;
     cursor: pointer;
@@ -8221,8 +8230,18 @@ blockquote cite br {
     font-weight: 500;
     transition: all 0.2s linear;
 }
+.sidebar_right .wp-block-search .wp-block-search__button {
+    padding: 11px 15px;
+}
+.sidebar_right .wp-block-group__inner-container > * {
+    margin-bottom: 30px;
+}
+.sidebar_right ol.wp-block-latest-comments {
+    padding-left: 0;
+}
 
-.blog_single_info .wp-block-search button:hover {
+.blog_single_info .wp-block-search button:hover,
+.sidebar_right .wp-block-search .wp-block-search__button:hover {
     background: #c5e213;
     color: #fff;
 }
@@ -8783,14 +8802,20 @@ dl dd a:hover {
     border-bottom: 1px solid #DFE2E7;
 }
 
-.widget ul > li a, .widget .wp-block-archives > li a {
+.widget ul > li a, .widget .wp-block-archives > li a, 
+.sidebar_right .wp-block-latest-comments a {
     color: #000;
     text-decoration: none;
     transition: color 0.2s linear;
     font-size: 15px;
 }
+.sidebar_right .wp-block-latest-comments a{
+    text-decoration: none;
+    font-weight: 500;
+}
 
-.widget ul > li a:hover, .widget .wp-block-archives > li a:hover {
+.widget ul > li a:hover, .widget .wp-block-archives > li a:hover,
+.sidebar_right .wp-block-latest-comments  a:hover {
     color: #c5e213;
 }
 
