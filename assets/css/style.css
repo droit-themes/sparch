@@ -9375,10 +9375,6 @@ a:visited {
     color: #181B31;
 }
 
-a:focus {
-    outline: thin dotted;
-}
-
 a:hover,
 a:active {
     outline: 0;

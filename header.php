@@ -23,8 +23,6 @@
 $blog_sidebar = sparch_options('sparch_blog_setting');
 $header_format = sparch_options('sparch_header_format');
 $sparch_header_contact_no = sparch_options('sparch_header_contact_no');
-
-
 ?>
 
 <body <?php body_class(); ?>>

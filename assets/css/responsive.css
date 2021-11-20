@@ -989,3 +989,24 @@
         max-width: 720px;
     }
 }
+@media only screen and (max-width: 991px) { 
+    .latest_news_area .dl_sp_blog_content {
+        position: relative!important;
+        opacity: 1 !important;
+    }
+    .latest_news_area .dl_sp_blog_content .dl_blog_date,
+    .latest_news_area .dl_sp_blog_content .dl_blog_title,
+    .latest_news_area .dl_sp_blog_content .dl_blog_desc{
+        opacity: 1 !important;
+    }
+    .latest_news_area .dl_sp_blog_content .dl_blog_details_btn{
+        top: 100%;
+        bottom: initial;
+    }
+    .latest_news_area .dl_sp_blog_wrapper{
+        margin-bottom: 60px;
+    }
+    body.admin-bar .header_area{
+        top: 50px;
+    }
+}

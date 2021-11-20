@@ -153,5 +153,18 @@ jQuery(function () {
             fixedContentPos: false
         });
     }
-		
+	function latestNewsAreaResponsive () {
+		if (window.matchMedia('(max-width: 991px)').matches) {
+			if($('.latest_news_area .dl_sp_border_effect.dl_sp_blog_content').length > 0 ) {
+				$('.latest_news_area .dl_sp_blog_content').removeClass('dl_sp_border_effect');
+			}
+		}else{
+			$('.latest_news_area .dl_sp_blog_content').addClass('dl_sp_border_effect');
+		}
+	}
+	latestNewsAreaResponsive ();
+$( window ).resize(function() {
+	latestNewsAreaResponsive ();
+});
+
 });
