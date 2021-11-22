@@ -392,11 +392,6 @@ rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-left.nav-dir-horizontal{
 	margin-top: 138px;
   } */
   
-  .dl_sp_navbar_white .main_menu .extra_logo img,
-  .dl_sp_navbar_white .main_menu .navbar-brand img {
-	-webkit-filter: brightness(0) invert(1);
-	filter: brightness(0) invert(1);
-  }
   .dl_sp_navbar_white .main_menu .navbar .number {
 	color: #fff;
   }
@@ -424,6 +419,15 @@ rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-left.nav-dir-horizontal{
 	}
 	.header_area.dl_sp_navbar_white .main_menu .navbar .nav.navbar-nav > li > a {
 	  color: #000;
+	}
+	.home .main_menu .navbar .navbar-brand img {
+		filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="1 0" /><feFuncG type="table" tableValues="1 0" /><feFuncB type="table" tableValues="1 0" /></feComponentTransfer></filter></svg>#filter');
+		-webkit-filter: invert(1);
+		        filter: invert(1);
+	}
+	.home .navbar_fixed .main_menu .navbar .navbar-brand img{
+		-webkit-filter: initial;
+		        filter: initial
 	}
   
 	/* .header_area .main_menu .navbar-collapse .nav {
@@ -753,3 +757,10 @@ h1.page-title.page_title{
 	position: relative;
 	z-index: 9;
 }
+@media only screen and (max-width: 991px) {
+	.admin-bar .main_menu .navbar .nav.navbar-nav li a {
+		font: 15px/65px "Poppins", sans-serif;
+	}
+	}
+
+	
