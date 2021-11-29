@@ -989,7 +989,7 @@ span.end-number{
 	border:none;
 }
 #rev_slider_1_1_wrapper .persephone .tp-bullet:hover, #rev_slider_1_1_wrapper .persephone .tp-bullet.selected{
- background: #C5E213 !important;	
+ background: #C99100 !important;	
 }
 rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-bottom.nav-dir-horizontal{
 	left:48% !important; 
@@ -1013,7 +1013,7 @@ rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-botto
 	color:#000000 !important;
 }
 .main_menu .navbar .nav.navbar-nav li.submenu .dropdown-menu li.current-menu-item a {	
-    color: #C5E213 !important;
+    color: #C99100 !important;
 }
 .comment-form-cookies-consent{
 	display:none;

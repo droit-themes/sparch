@@ -6495,7 +6495,7 @@ textarea.form-control-lg {
 }
 
 .header_left span {
-    background: #c5e213;
+    background: #C99100;
     border-radius: 3px;
     padding: 4px 18px;
     font-size: 14px;
@@ -6637,7 +6637,7 @@ textarea.form-control-lg {
     content: "";
     width: 0px;
     height: 2px;
-    background: #c5e213;
+    background: #C99100;
     position: absolute;
     bottom: 0;
     left: auto;
@@ -6651,7 +6651,7 @@ textarea.form-control-lg {
 
 .menu > .nav-item .mobile_dropdown_icon.arrow_rotate {
     transform: rotate(180deg);
-    color: #c5e213;
+    color: #C99100;
 }
 
 .menu > .nav-item.submenu .dropdown-menu {
@@ -6701,7 +6701,7 @@ textarea.form-control-lg {
 }
 
 .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item:focus > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .menu > .nav-item.submenu .dropdown-menu .nav-item > .dropdown-menu {
@@ -6795,11 +6795,11 @@ textarea.form-control-lg {
 }
 
 .menu > .nav-item.mega_menu .mega_menu_inner .maga_menu_col ul > .nav-item > .dropdown-menu li.active a, .menu > .nav-item.mega_menu .mega_menu_inner .maga_menu_col ul > .nav-item > .dropdown-menu li:hover a {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .menu > .nav-item.active .nav-link {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .menu > .nav-item.active .nav-link:before {
@@ -6809,7 +6809,7 @@ textarea.form-control-lg {
 }
 
 .menu > .nav-item:hover .nav-link {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .menu > .nav-item:hover .nav-link:before {
@@ -6879,7 +6879,7 @@ textarea.form-control-lg {
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    background: #c5e213;
+    background: #C99100;
     display: inline-block;
     text-align: center;
     color: #fff;
@@ -6967,7 +6967,7 @@ textarea.form-control-lg {
 }
 
 .search_cart .nav-item.submenu .dropdown-menu .cart-single-item .cart-remove a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .search_cart .nav-item.submenu .dropdown-menu .cart-single-item:hover .cart-img {
@@ -6975,7 +6975,7 @@ textarea.form-control-lg {
 }
 
 .search_cart .nav-item.submenu .dropdown-menu .cart-single-item:hover .cart-title a {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .search_cart .nav-item.submenu .dropdown-menu .cart_f {
@@ -7002,15 +7002,15 @@ textarea.form-control-lg {
 
 .search_cart .nav-item.submenu .dropdown-menu .cart_f .cart-button .medical_theme_btn + .medical_theme_btn {
     margin-left: 5px;
-    background: #c5e213;
+    background: #C99100;
 }
 
 .search_cart .nav-item.submenu .dropdown-menu .cart_f .cart-button .medical_theme_btn + .medical_theme_btn span {
-    background: #c5e213;
+    background: #C99100;
 }
 
 .search_cart .nav-item:hover .nav-link i:before {
-    color: #c5e213;
+    color: #C99100;
 }
 
 @media (min-width: 992px) {
@@ -7437,7 +7437,7 @@ textarea.form-control-lg {
     position: absolute;
     right: 20px;
     top: 20px;
-    background: #c5e213;
+    background: #C99100;
     border-radius: 3px;
     line-height: 15px;
     display: inline-block;
@@ -7553,7 +7553,7 @@ textarea.form-control-lg {
 }
 
 .media_blog_content .post_bottom .learn_btn_two:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .media_blog_content .post_bottom .learn_btn_two:hover:after {
@@ -7589,7 +7589,7 @@ textarea.form-control-lg {
     background: white !important;
     width: 100% !important;
     box-shadow: 0px 10px 30px 0px rgba(20, 3, 67, 0.08);
-    border-left: 6px solid #c5e213;
+    border-left: 6px solid #C99100;
     padding: 50px;
 }
 
@@ -7658,7 +7658,7 @@ textarea.form-control-lg {
 }
 
 .mejs-container .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-current {
-    background: #c5e213;
+    background: #C99100;
     height: 100%;
 }
 
@@ -7721,12 +7721,12 @@ textarea.form-control-lg {
 .post-password-form input[type="password"]:focus {
     outline: none;
     box-shadow: none;
-    border-color: #c5e213;
+    border-color: #C99100;
 }
 
 .post-password-form input[type="submit"] {
     height: 50px;
-    background: #c5e213;
+    background: #C99100;
     border: 0px;
     font-weight: 500;
     color: #fff;
@@ -7737,7 +7737,7 @@ textarea.form-control-lg {
 }
 
 .post-password-form input[type="submit"]:hover {
-    background: #c5e213;
+    background: #C99100;
 }
 
 blockquote {
@@ -7745,7 +7745,7 @@ blockquote {
     border-radius: 6px;
     background-color: white;
     box-shadow: 0px 10px 30px 0px rgba(20, 3, 67, 0.08);
-    border-left: 6px solid #c5e213;
+    border-left: 6px solid #C99100;
     padding: 30px 70px 32px 30px;
     position: relative;
     margin-bottom: 60px;
@@ -7766,7 +7766,7 @@ blockquote:before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 30px;
-    color: #c5e213;
+    color: #C99100;
     margin-bottom: 15px;
     display: inline-block;
 }
@@ -7779,7 +7779,7 @@ blockquote:after {
     right: 30px;
     line-height: 0.3;
     bottom: 0;
-    color: #c5e213;
+    color: #C99100;
     opacity: 0.1;
     font-size: 140px;
     transform: rotate(180deg);
@@ -7827,7 +7827,7 @@ blockquote cite br {
     position: relative;
     transition: all .3s linear;
     display: inline-block;
-    color: #c5e213;
+    color: #C99100;
     text-shadow: 0 6px 25px rgba(84, 162, 65, 0.9);
 }
 
@@ -7869,8 +7869,8 @@ blockquote cite br {
 }
 
 .pagination .page-numbers.current, .pagination .page-numbers:hover, .page-links span, .page-links a:hover {
-    background: #c5e213;
-    border-color: #c5e213;
+    background: #C99100;
+    border-color: #C99100;
     color: #fff;
 }
 
@@ -7891,8 +7891,8 @@ blockquote cite br {
 }
 
 .pagination .page-numbers.prev:hover, .pagination .page-numbers.next:hover {
-    background: #c5e213;
-    border-color: #c5e213;
+    background: #C99100;
+    border-color: #C99100;
     color: #fff;
 }
 
@@ -7943,11 +7943,11 @@ blockquote cite br {
 }
 
 .widget_recent_entries .recent_post_item .recent_post_content .post_date:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .widget_recent_entries .recent_post_item:hover h5 {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .tagcloud, .wp-block-tag-cloud {
@@ -7970,7 +7970,7 @@ blockquote cite br {
 }
 
 .tagcloud a:hover, .tagcloud .tag-cloud-link:hover, .wp-block-tag-cloud a:hover, .wp-block-tag-cloud .tag-cloud-link:hover {
-    background: #c5e213;
+    background: #C99100;
     color: #fff !important;
 }
 
@@ -8023,7 +8023,7 @@ blockquote cite br {
 }
 
 .blog_single_info .media_blog_content ul li a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .blog_single_info .media_blog_content code {
@@ -8040,7 +8040,7 @@ blockquote cite br {
 }
 
 .blog_single_info .media_blog_content p a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .blog_single_info .media_blog_content p.has-background {
@@ -8074,7 +8074,7 @@ blockquote cite br {
 }
 
 .blog_single_info .media_blog_content ol li a:hover, .blog_single_info .media_blog_content ul li a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .blog_single_info .media_blog_content ol li:not(:last-child), .blog_single_info .media_blog_content ul li:not(:last-child) {
@@ -8091,7 +8091,7 @@ blockquote cite br {
 }
 
 .blog_single_info .post_comments i {
-    color: #c5e213;
+    color: #C99100;
     font-size: 16px;
     vertical-align: middle;
     margin-right: 4px;
@@ -8156,7 +8156,7 @@ blockquote cite br {
 }
 
 .blog_single_info figcaption a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .blog_single_info .wp-block-image figure figcaption {
@@ -8169,7 +8169,7 @@ blockquote cite br {
 }
 
 .blog_single_info .wp-block-file a:first-child:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .blog_single_info .wp-block-calendar {
@@ -8207,7 +8207,7 @@ blockquote cite br {
 .blog_single_info .wp-block-search input:focus,
 .sidebar_right .wp-block-search .wp-block-search__input:focus {
     outline: none;
-    border-color: #c5e213;
+    border-color: #C99100;
 }
 
 .blog_single_info .wp-block-search button,
@@ -8215,7 +8215,7 @@ blockquote cite br {
     border: 0px;
     padding: 11px 53px;
     cursor: pointer;
-    background: #c5e213;
+    background: #C99100;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -8233,7 +8233,7 @@ blockquote cite br {
 
 .blog_single_info .wp-block-search button:hover,
 .sidebar_right .wp-block-search .wp-block-search__button:hover {
-    background: #c5e213;
+    background: #C99100;
     color: #fff;
 }
 
@@ -8313,7 +8313,7 @@ blockquote cite br {
 }
 
 .blog_single_info table td a:hover, .blog_single_info table th a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .blog_single_info table th {
@@ -8334,7 +8334,7 @@ blockquote cite br {
 }
 
 code {
-    color: #c5e213;
+    color: #C99100;
 }
 
 dl dd {
@@ -8347,7 +8347,7 @@ dl dd a {
 }
 
 dl dd a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .social_icon {
@@ -8490,7 +8490,7 @@ dl dd a:hover {
 }
 
 .comment_box .comments_item .comment-reply-link:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .comment_box .comments_item .comments_author_img {
@@ -8561,7 +8561,7 @@ dl dd a:hover {
 }
 
 .comment_box .comments_item .content p a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .comment_box .comments_item .content ul li, .comment_box .comments_item .content ol li {
@@ -8592,7 +8592,7 @@ dl dd a:hover {
 }
 
 .comment_box table td a:hover, .comment_box table th a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .comment_box table th {
@@ -8616,7 +8616,7 @@ dl dd a:hover {
 }
 
 .comment_box .trackback .comment-body a:hover, .comment_box .pingback .comment-body a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .comment-form .form-group:not(:last-child) {
@@ -8652,7 +8652,7 @@ dl dd a:hover {
 }
 
 .comment-form .form-group input:focus {
-    border-color: #c5e213;
+    border-color: #C99100;
     box-shadow: none;
 }
 
@@ -8680,7 +8680,7 @@ dl dd a:hover {
 }
 
 .comment-form .form-group textarea:focus {
-    border-color: #c5e213;
+    border-color: #C99100;
     box-shadow: none;
 }
 
@@ -8688,7 +8688,7 @@ dl dd a:hover {
     border: 0px;
     padding: 11px 23px;
     cursor: pointer;
-    background: #c5e213;
+    background: #C99100;
     color: #fff;
     font-size: 16px;
     line-height: 29px;
@@ -8705,7 +8705,7 @@ dl dd a:hover {
 }
 
 .comment-form .logged-in-as a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 /*========== End comment_box css ===========*/
@@ -8741,7 +8741,7 @@ dl dd a:hover {
 }
 
 .contact_info_item p a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .contact_form .medical_theme_btn {
@@ -8807,7 +8807,7 @@ dl dd a:hover {
 
 .widget ul > li a:hover, .widget .wp-block-archives > li a:hover,
 .sidebar_right .wp-block-latest-comments  a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .widget ul > li a:focus, .widget .wp-block-archives > li a:focus {
@@ -8909,7 +8909,7 @@ dl dd a:hover {
 
 .calendar_wrap tbody td a, .wp-block-calendar tbody td a {
     display: block;
-    background: #c5e213;
+    background: #C99100;
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
@@ -8933,7 +8933,7 @@ dl dd a:hover {
 }
 
 .calendar_wrap .wp-calendar-nav a:hover, .wp-block-calendar .wp-calendar-nav a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 .widget_categories ul li + li {
@@ -8957,7 +8957,7 @@ dl dd a:hover {
 }
 
 .widget_recent_comments ul > li a:hover {
-    color: #c5e213 !important;
+    color: #C99100 !important;
 }
 
 .widget_recent_comments ul > li .url {
@@ -9066,7 +9066,7 @@ dl dd a:hover {
 .search-form input:focus {
     outline: none;
     box-shadow: none;
-    border-color: #c5e213;
+    border-color: #C99100;
 }
 
 .search-form .search-submit {
@@ -9160,7 +9160,7 @@ dl dd a:hover {
 }
 
 .share_links ul li a:hover {
-    color: #c5e213 !important;
+    color: #C99100 !important;
 }
 
 .comment-reply-title, .comments-title {
@@ -9387,7 +9387,7 @@ a:hover,
 a:focus,
 a:active,
 h2 a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 
 a:visited {
@@ -9469,7 +9469,7 @@ a:active {
 }
 
 .banner-with-color {
-    background-color: #c5e213;
+    background-color: #C99100;
 }
 
 .site-footer {
@@ -9483,7 +9483,7 @@ a:active {
     color: #787878;
 }
 .site-footer a:hover {
-    color: #c5e213;
+    color: #C99100;
 }
 .breadcrumbs__link, .breadcrumbs__link:hover{
     color: #222
