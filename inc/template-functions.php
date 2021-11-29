@@ -250,7 +250,7 @@ if(!function_exists('sparch_get_nav_style')){
 if(!function_exists('sparch_header_class')){
 
 	function sparch_header_class(){
-		$default_class = 'site-header sticky_nav';
+		$default_class = 'site-header sticky_nav no-redux';
 		if(class_exists( 'Redux' ) ) {
 			if(is_front_page()){
 				$default_class = 'header_area home_page';

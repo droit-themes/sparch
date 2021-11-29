@@ -201,6 +201,13 @@
 .header_area.navbar_fixed.menu_dark .main_menu .navbar .navbar-brand img:first-child{
 	display: none;
 }
+.no-redux.navbar_fixed  > nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #efefef;
+}
   @media (min-width: 992px) {
 	.main_menu .navbar .nav.navbar-nav li.submenu .dropdown-menu {
 	  position: absolute;
