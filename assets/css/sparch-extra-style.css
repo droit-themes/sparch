@@ -744,3 +744,12 @@ h1.page-title.page_title{
 	.navbar-nav > .nav-item .mobile_dropdown_icon{
 		display: none;
 	}
+	.team_item .team_text.dl_sp_border_effect {
+	background-color: #fff;
+}
+.team_item .team_text.dl_sp_border_effect:hover a{
+	color: #000;
+}
+.dl_sp_portfolio_wrapper .dl_sp_portfolio_content.dl_sp_border_effect{
+	background-color: #fff;
+}
