@@ -677,11 +677,6 @@ span.slide-title-color{
 	}
 }
 
-
-.dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control{
- border-radius:5px !important;	
-}
-
 .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control:focus{
 	border-color: #c5e213 !important;
     box-shadow: none;
