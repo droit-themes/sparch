@@ -203,8 +203,8 @@ function sparch_is_comment_by_post_author( $comment = null ) {
 
 		function sparch_logo () {
            
-			$logo_option_url = SPARCH_IMAGES.'/default_logo/logo.png';
-			$sticky_logo_option = SPARCH_IMAGES.'/default_logo/logo_sticky.png';
+			$logo_option_url = SPARCH_IMAGES.'/default_logo/logo.svg';
+			$sticky_logo_option = SPARCH_IMAGES.'/default_logo/logo.svg';
 			$sticky_ratina_sticky_url = '';
 			$sticky_ratina_attr = '';
 			$ratena_url = '';
@@ -268,8 +268,8 @@ function sparch_is_comment_by_post_author( $comment = null ) {
 			}elseif($logo_option_url != '') {
 
               echo '<a href="'.esc_url(home_url('/')).'" class="navbar-brand">
-						<img src="'.esc_url($logo_option_url).'" class="site-logo" alt="'.esc_attr( $logo_alt ).'"'.$ratena_attr.'>
-						<img src="'.esc_url($sticky_logo_option).'" class="site-logo" alt="'.esc_attr( $logo_alt_sticky ).'"'.$sticky_ratina_attr.'>
+						<img src="'.esc_url($logo_option_url).'" class="site-logo" alt="'.esc_attr( $logo_alt ).'"'.$ratena_attr.' width="170" height="40">
+						<img src="'.esc_url($sticky_logo_option).'" class="site-logo" alt="'.esc_attr( $logo_alt_sticky ).'"'.$sticky_ratina_attr.'  width="170" height="40">
 			        </a>';
 
 			}else{
