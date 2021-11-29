@@ -212,6 +212,9 @@ function sparch_is_comment_by_post_author( $comment = null ) {
 			$logo_alt = 'sparch default logo';
 			$logo_alt_sticky = 'sparch default sticky logo';
 
+		
+		   
+
 			if(class_exists( 'Redux' ) ) {
 
 				$logo = sparch_options('sparch_logo'); 
@@ -261,23 +264,26 @@ function sparch_is_comment_by_post_author( $comment = null ) {
 				$sticky_ratina_attr = 'srcset="'.$default_sticky_logo.", ".$sticky_ratina_sticky_url." 2x".'"';
 			}
 
+			// page option logo 
+
+			if(function_exists('get_field')){
+				$logo_url = get_field('upload_logo');
+				if(!empty($logo_url)) {
+				   $logo_option_url =  $logo_url['url'];
+				}
+		   }
+
 			if(function_exists('the_custom_logo') && has_custom_logo()) {
 
 				the_custom_logo();
 
-			}elseif($logo_option_url != '') {
+			}else{
 
               echo '<a href="'.esc_url(home_url('/')).'" class="navbar-brand">
 						<img src="'.esc_url($logo_option_url).'" class="site-logo" alt="'.esc_attr( $logo_alt ).'"'.$ratena_attr.' width="170" height="40">
 						<img src="'.esc_url($sticky_logo_option).'" class="site-logo" alt="'.esc_attr( $logo_alt_sticky ).'"'.$sticky_ratina_attr.'  width="170" height="40">
 			        </a>';
 
-			}else{
-
-				echo '<a href="'.esc_url(home_url('/')).'" class="navbar-brand">
-				        <img src="'.esc_url($logo_option_url).'" class="site-logo" alt="'.esc_attr( $logo_alt ).'" '.$ratena_attr.'>
-						<img src="'.esc_url($sticky_logo_option).'" class="site-logo" alt="'.esc_attr( $logo_alt_sticky ).'" '.$sticky_ratina_attr.'>
-				      </a>';	
 			}
           
 		}

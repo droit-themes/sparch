@@ -33,35 +33,10 @@
             "default_value": "#FFFFFF"
         },
         {
-            "key": "field_6077da0e099cf",
-            "label": "Set White Logo",
-            "name": "set_white_logo",
-            "type": "select",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "choices": {
-                "default": "Default Logo",
-                "white": "White Logo"
-            },
-            "default_value": false,
-            "allow_null": 0,
-            "multiple": 0,
-            "ui": 0,
-            "return_format": "value",
-            "ajax": 0,
-            "placeholder": ""
-        },
-        {
-            "key": "field_619a337abc733",
-            "label": "Upload Logo",
-            "name": "upload_logo",
-            "type": "image",
+            "key": "field_61a48e7e1627e",
+            "label": "Use Custom Logo?",
+            "name": "use_custom_logo",
+            "type": "true_false",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -70,7 +45,34 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "id",
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_61a48eab81632",
+            "label": "Upload logo",
+            "name": "upload_logo",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61a48e7e1627e",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
             "preview_size": "thumbnail",
             "library": "all",
             "min_width": "",
@@ -99,5 +101,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1637495724
+    "modified": 1638174423
 }

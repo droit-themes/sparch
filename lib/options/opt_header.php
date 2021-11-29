@@ -10,11 +10,21 @@ Redux::set_section( 'sparch', array(
 
 // Logo
 Redux::set_section( 'sparch', array(
-    'title'            => esc_html__( 'Logo', 'sparch' ),
+    'title'            => esc_html__( 'Header Settings', 'sparch' ),
     'id'               => 'sparch_logo_opt',
     'subsection'       => true,
     'icon'             => '',
     'fields'           => array(
+        array(
+            'id'       => 'sparch_header_style',
+            'type'     => 'select',
+            'title'    => esc_html__('Header Style ', 'sparch'),
+            'options' => array(
+                '1' => esc_html__('Style 1', 'sparch'), 
+                'no' => esc_html__('Default', 'sparch'), 
+             ), 
+            'default' => 'no'
+        ),
         array(
             'id'       => 'sparch_header_format',
             'type'     => 'button_set',
@@ -25,12 +35,7 @@ Redux::set_section( 'sparch', array(
              ), 
             'default' => 'no'
         ),
-        array( 
-            'id' => 'sparch_header_contact_no',
-            'title'    => __('Header Contact Number', 'sparch'), 
-            'type' => 'text',
-            'default' => '+88-01887-607441'
-        ),
+        
         array(
             'title'     => esc_html__( 'Upload logo', 'sparch' ),
             'subtitle'  => esc_html__( 'Upload here a image file for your logo', 'sparch' ),

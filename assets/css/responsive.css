@@ -1009,4 +1009,7 @@
     body.admin-bar .header_area{
         top: 50px;
     }
+    body.admin-bar .header_area.navbar_fixed{
+        top: -100px;
+    }
 }

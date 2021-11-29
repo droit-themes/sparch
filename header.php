@@ -23,9 +23,9 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'sparch' ); ?></a>
-
-	<header id="masthead" class="site-header sticky_nav">
-		<?php  get_template_part( 'template-parts/header/nav/content',  'nav'); ?>
+	
+	<header id="masthead" class="<?php echo esc_attr( sparch_header_class() ); ?>">
+		<?php  get_template_part( 'template-parts/header/nav/content',  sparch_get_nav_style()); ?>
 	</header><!-- #masthead -->
 
 

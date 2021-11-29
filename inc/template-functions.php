@@ -236,3 +236,32 @@ if(!function_exists('sparch_pagination')){
 
 }
 
+if(!function_exists('sparch_get_nav_style')){
+
+	function sparch_get_nav_style(){
+		$get_option = sparch_options('sparch_header_style', '');
+		
+		 $get_style = ($get_option != 'no') ? 'nav'.$get_option : 'nav';
+		
+		return $get_style;
+	}
+
+}
+if(!function_exists('sparch_header_class')){
+
+	function sparch_header_class(){
+		$default_class = 'site-header sticky_nav';
+		if(class_exists( 'Redux' ) ) {
+			if(is_front_page()){
+				$default_class = 'header_area home_page';
+			}else{
+				$default_class = 'header_area menu_dark';
+			}
+			
+		}
+		return $default_class;
+	}
+
+}
+
+
