@@ -983,10 +983,10 @@ span.end-number{
 
 #rev_slider_1_1_wrapper .persephone .tp-bullet{
 	width: 20px !important;
-    height: 4px !important;
+    height: 2px !important;
     background: #fff !important;
     opacity: 1;
-	border:none;
+	border:0 !important;
 }
 #rev_slider_1_1_wrapper .persephone .tp-bullet:hover, #rev_slider_1_1_wrapper .persephone .tp-bullet.selected{
  background: #C99100 !important;	

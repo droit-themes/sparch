@@ -9,11 +9,9 @@ $menu_layout_class = ($layout == 'no') ? 'container' : 'container-fulid';
         <div class="<?php  echo esc_attr( $menu_layout_class ); ?>">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <?php sparch_logo(); ?>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span></span>
+                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <?php 
             
