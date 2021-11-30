@@ -7535,6 +7535,7 @@ textarea.form-control-lg {
     font-size: 14px;
     font-weight: 500;
     color: #787878;
+    margin-top: 10px;
 }
 
 .media_blog_content .post_bottom .learn_btn_two {
@@ -7562,7 +7563,7 @@ textarea.form-control-lg {
 
 .post-meta {
     color: #787878;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 10px;
 }
 
