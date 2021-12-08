@@ -8275,6 +8275,10 @@ blockquote cite br {
     padding: 0px;
     border-radius: 0;
 }
+.blog_single_info .page-links span.post-page-numbers.current,
+.blog_single_info .page-links .post-page-numbers:hover{
+    color: #fff;
+}
 
 
 .blog_single_info .wp-block-table table {
@@ -8930,7 +8934,7 @@ dl dd a:hover {
     transition: all 0.2s linear;
 }
 .calendar_wrap tbody td a, .wp-block-calendar tbody td a:hover{
-    color: #000000;
+    color: #fff;
 }
 
 .calendar_wrap .wp-calendar-nav a:hover, .wp-block-calendar .wp-calendar-nav a:hover {
@@ -9171,6 +9175,9 @@ dl dd a:hover {
     font-size: 28px;
     line-height: 1.35;
 }
+.comment-reply-title{
+    font-size: 20px;
+}
 
 .about-autheor {
     margin-top: 75px;
@@ -9363,7 +9370,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-family: "Poppins", sans-serif;
 }
  .widgettitle{
-     font-size: 24px;
+     font-size: 18px;
      font-weight: 500;
  }
 main {
