@@ -307,9 +307,6 @@
 rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-left.nav-dir-horizontal{
 		left: 60px !important;
 	}
-  .main_menu .navbar .nav.navbar-nav li:hover a, .main_menu .navbar .nav.navbar-nav li.active a {
-	color: #C99100;
-  }
   .main_menu .navbar .nav.navbar-nav li:hover a:before, .main_menu .navbar .nav.navbar-nav li.active a:before {
 	width: 23px;
   }
