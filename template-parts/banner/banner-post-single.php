@@ -35,12 +35,6 @@ if($show_banner == 'show') :
             <div class="breadcrumb_content text-center">
                <?php if($how_title == 'show') : ?>
                 <h1 class="page-title page_title"><?php single_post_title(); ?></h1>
-                <div class="post-meta">
-                    <?php 
-                    sparch_posted_on();
-                    sparch_posted_by();
-                    ?>
-               </div>
                <?php endif; ?> 
             </div>
         </div>
