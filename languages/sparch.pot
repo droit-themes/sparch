@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Sparch\n"
-"POT-Creation-Date: 2021-06-14 15:25+0600\n"
+"POT-Creation-Date: 2021-11-30 13:56+0600\n"
 "PO-Revision-Date: 2021-06-14 15:10+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -36,15 +36,6 @@ msgstr ""
 msgid "One Comment"
 msgstr ""
 
-#. translators: 1: comment count number, 2: title.
-#: comments.php:41
-#, php-format
-msgctxt "sparch"
-msgid "%1$s Comments &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s Comments"
-msgstr[0] ""
-msgstr[1] ""
-
 #: comments.php:70
 msgid "Comments are closed."
 msgstr ""
@@ -69,7 +60,7 @@ msgstr ""
 msgid "Add widgets here."
 msgstr ""
 
-#: header.php:33
+#: header.php:25
 msgid "Skip to content"
 msgstr ""
 
@@ -217,7 +208,7 @@ msgstr ""
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: inc/template-tags.php:312
+#: inc/template-tags.php:320
 msgid "About the Author"
 msgstr ""
 
@@ -856,80 +847,84 @@ msgid "Header"
 msgstr ""
 
 #: lib/options/opt_header.php:13
-msgid "Logo"
+msgid "Header Settings"
 msgstr ""
 
 #: lib/options/opt_header.php:21
-msgid "Header Format "
+msgid "Header Style "
 msgstr ""
 
 #: lib/options/opt_header.php:23
-msgid "Full Width"
+msgid "Style 1"
 msgstr ""
 
-#: lib/options/opt_header.php:24
+#: lib/options/opt_header.php:24 lib/options/opt_header.php:34
 msgid "Default"
 msgstr ""
 
-#: lib/options/opt_header.php:30
-msgid "Header Contact Number"
+#: lib/options/opt_header.php:31
+msgid "Header Format "
 msgstr ""
 
-#: lib/options/opt_header.php:35
+#: lib/options/opt_header.php:33
+msgid "Full Width"
+msgstr ""
+
+#: lib/options/opt_header.php:40
 msgid "Upload logo"
 msgstr ""
 
-#: lib/options/opt_header.php:36
+#: lib/options/opt_header.php:41
 msgid "Upload here a image file for your logo"
 msgstr ""
 
-#: lib/options/opt_header.php:45
+#: lib/options/opt_header.php:50
 msgid "Sticky header logo"
 msgstr ""
 
-#: lib/options/opt_header.php:54
+#: lib/options/opt_header.php:59
 msgid "Retina Logo"
 msgstr ""
 
-#: lib/options/opt_header.php:55 lib/options/opt_header.php:62
+#: lib/options/opt_header.php:60 lib/options/opt_header.php:67
 msgid "The retina logo should be double (2x) of your original logo"
 msgstr ""
 
-#: lib/options/opt_header.php:61
+#: lib/options/opt_header.php:66
 msgid "Retina Sticky Logo"
 msgstr ""
 
-#: lib/options/opt_header.php:68
+#: lib/options/opt_header.php:73
 msgid "Logo dimensions"
 msgstr ""
 
-#: lib/options/opt_header.php:69
+#: lib/options/opt_header.php:74
 msgid "Set a custom height width for your upload logo."
 msgstr ""
 
-#: lib/options/opt_header.php:77
+#: lib/options/opt_header.php:82
 msgid "Padding"
 msgstr ""
 
-#: lib/options/opt_header.php:78
+#: lib/options/opt_header.php:83
 msgid ""
 "Padding around the logo. Input the padding as clockwise (Top Right Bottom "
 "Left)"
 msgstr ""
 
-#: lib/options/opt_header.php:91
+#: lib/options/opt_header.php:96
 msgid "Menu Setting"
 msgstr ""
 
-#: lib/options/opt_header.php:99
+#: lib/options/opt_header.php:104
 msgid "Show Search Icon"
 msgstr ""
 
-#: lib/options/opt_header.php:101
+#: lib/options/opt_header.php:106
 msgid "Yes"
 msgstr ""
 
-#: lib/options/opt_header.php:102
+#: lib/options/opt_header.php:107
 msgid "No"
 msgstr ""
 
