@@ -994,7 +994,9 @@ span.end-number{
 rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-bottom.nav-dir-horizontal{
 	left:48% !important; 
 }
-
+.comment-reply-title small {
+	margin-left: 15px;
+}
 @media (max-width:1024px) and (min-width: 769px) {
 rs-bullets.tp-bullets.persephone.horizontal.nav-pos-hor-center.nav-pos-ver-bottom.nav-dir-horizontal {
     	left: 55% !important;
