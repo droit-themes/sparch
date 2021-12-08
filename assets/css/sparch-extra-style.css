@@ -632,21 +632,20 @@ span.slide-title-color{
 }
 
 .comment-form .btn-comment-form{
-	background-color: #C99100;
-    color: #000000;
+	background-color: #000;
+    color: #fff;
     font-family: "Poppins", Sans-serif;
     font-size: 13px;
     font-weight: 400;
 	border-radius: 0;
+	transition: all .4s;
 }
 .comment-date span[aria-hidden="true"] {
 	display: none !important;
 }
 .comment-form .btn-comment-form:hover{
-	background: #000000 !important;
-    color: #fff !important;
+	background: #C99100 !important;
 }
-
 @media  (max-width:1800px) and (min-width: 1500px) {
 	rs-layer-wrap.rs-parallax-wrap{
 		left:-720px !important;
