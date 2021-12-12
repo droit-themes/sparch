@@ -8629,7 +8629,7 @@ dl dd a:hover {
 }
 
 .comment-form .form-group input {
-    border-radius: 1px;
+    border-radius: .25rem;
     border: 1px solid #C9C9C9;
     height: 60px;
     line-height: 60px;
@@ -9170,13 +9170,17 @@ dl dd a:hover {
 
 .comment-reply-title, .comments-title {
     font-weight: 600;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     margin-top: 0;
     font-size: 28px;
     line-height: 1.35;
 }
 .comment-reply-title{
     font-size: 20px;
+    margin-top: 7px;
+}
+.comment-reply-title + form.comment-form{
+    margin-bottom: 20px;
 }
 
 .about-autheor {

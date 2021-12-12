@@ -637,7 +637,7 @@ span.slide-title-color{
     font-family: "Poppins", Sans-serif;
     font-size: 13px;
     font-weight: 400;
-	border-radius: 0;
+	border-radius: .25rem;
 	transition: all .4s;
 }
 .comment-date span[aria-hidden="true"] {
@@ -748,4 +748,9 @@ h1.page-title.page_title{
 }
 .dl_sp_portfolio_wrapper .dl_sp_portfolio_content.dl_sp_border_effect{
 	background-color: #fff;
+}
+
+.dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control,
+.dl_contact_form_wrapper.wpcf7_default .wpcf7-submit{
+	border-radius: .25rem;
 }
