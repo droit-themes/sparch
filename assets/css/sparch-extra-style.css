@@ -77,8 +77,6 @@
 	padding-bottom:30px;
 }
 
-
-
   .header_area.navbar_fixed .main_menu .navbar .navbar-brand img + img {
 	display: inline-block;
   }
@@ -155,8 +153,6 @@
 	color: #C99100;
   }
 
-  
-  
   .main_menu .navbar {
 	padding: 0px;
 	background-color: transparent !important;
@@ -580,15 +576,10 @@ span.slide-title-color{
 }
 
 
-
 @media (max-width: 1440px) and (min-width: 1200px) {
     .whal_home_banner .dl_parallax_element img {
         max-width: 88% !important;
         float: right;
-    }
-	.home .main_menu .navbar .navbar-brand img{
-	   -webkit-filter: brightness(0) invert(1);
-       filter: brightness(0) invert(1);
     }
 }
 @media (max-width: 1500px) and (min-width: 1000px) {
@@ -603,7 +594,6 @@ span.slide-title-color{
 	 filter: brightness(0.5);	
 	}
 }
-
 
 .footer_widget p{
     margin-top: 0;
@@ -685,7 +675,6 @@ span.slide-title-color{
 h1.page-title.page_title{
 	font-weight:600;
 }
- 
 
 .single-post .main_menu .navbar .nav.navbar-nav li a,
 .blog .main_menu .navbar .nav.navbar-nav li a  {
