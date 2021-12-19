@@ -15,7 +15,7 @@ function sparch_import_files() {
             'local_import_redux'           => array(
                 array(
                     'file_path'   => trailingslashit( get_template_directory() ) . 'inc/demos/settings.json',
-                    'option_name' => 'sparch_opt',
+                    'option_name' => 'sparch',
                 ),
             ),
         ),
