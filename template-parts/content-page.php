@@ -10,12 +10,6 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    
-	<?php
-    if ( get_post_type( get_the_ID() ) != 'team' ) {
-        sparch_post_thumbnail();
-     }
-    ?>
 
 	<div class="entry-content">
 		<?php
