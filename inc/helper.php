@@ -179,3 +179,18 @@ if(!function_exists('sparch_page_meta')){
     return $classes;
 }
 add_filter( 'body_class','wp_body_classes' );
+
+
+
+add_filter( 'body_class', 'custom_class' );
+function custom_class( $classes ) {
+        $show_page_banner = sparch_options('sparch_page_banner_toggle', '');
+        global $post;
+
+    if( ($show_page_banner == 'show' &&  is_page_template( 'templates/fluid.php' ) ) || sparch_page_meta('is_banner', $post->ID) ) {
+             $classes[] = 'has-page-banner';
+         }
+
+
+    return $classes;
+}

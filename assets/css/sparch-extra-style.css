@@ -662,20 +662,13 @@ span.slide-title-color{
 		margin-right: -20px;
 	}
 }
-
 .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control:focus{
 	border-color: #C99100 !important;
     box-shadow: none;
 }
-.single-post .header_area, 
-.blog .header_area, .archive .header_area{
-	position:inherit;
-}
-
 h1.page-title.page_title{
 	font-weight:600;
 }
-
 .single-post .main_menu .navbar .nav.navbar-nav li a,
 .blog .main_menu .navbar .nav.navbar-nav li a  {
 	font: 15px/100px "Poppins", sans-serif;

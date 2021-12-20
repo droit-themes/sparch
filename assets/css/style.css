@@ -9291,6 +9291,18 @@ dl dd a:hover {
     position: relative;
     z-index: 1;
 }
+.has-page-banner .blog_breadcrumbs_area_two {
+    padding:180px 0px 190px 0px;
+    background-position: center bottom !important
+}
+.has-page-banner .menu_dark .main_menu .navbar .nav.navbar-nav > li > a {
+    color: #fff;
+}
+@media only screen and (max-width: 767px) {
+    .blog_breadcrumbs_area_two {
+        padding:90px 0px 60px 0px;
+    }
+}
 
 .blog_breadcrumbs_area_two .overlay_bg,
   .blog_breadcrumbs_area_two.page-banner .overlay_bg,

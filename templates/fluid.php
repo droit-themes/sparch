@@ -1,7 +1,7 @@
 <?php
 /**
  * template Name: Sparch Fluid
- *
+ * Template Post Type: page, post, team
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package Sparch
