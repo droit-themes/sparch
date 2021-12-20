@@ -80,6 +80,13 @@
                 "operator": "==",
                 "value": "team"
             }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "portfolio"
+            }
         ]
     ],
     "menu_order": 0,
@@ -91,5 +98,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1639990812
+    "modified": 1639994077
 }
