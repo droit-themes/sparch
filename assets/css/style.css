@@ -7754,6 +7754,7 @@ blockquote {
     margin-left: 0;
     margin-right: 0;
     z-index: 1;
+    margin-top: 15px;
 }
 
 @media (max-width: 576px) {
@@ -8421,7 +8422,7 @@ dl dd a:hover {
 }
 
 .comment_box .comment > ul {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 17px;
     padding: 0px;
     list-style: none;
