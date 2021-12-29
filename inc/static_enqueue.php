@@ -29,9 +29,7 @@ function sparch_fonts_url() {
 function sparch_scripts() {
 	wp_enqueue_style('sparchfonts', sparch_fonts_url(), array(), null);
 	wp_enqueue_style( 'sparch-style', get_stylesheet_uri(), array(), SPARCH_VERSION );
-	wp_style_add_data( 'sparch-style', 'rtl', 'replace' );
 
-	wp_enqueue_style( 'Reggae', 'https://fonts.googleapis.com/css2?family=Reggae+One&display=swap', array( 'sparch-style' ), SPARCH_VERSION );
 	wp_enqueue_style( 'mediaelementplayer', SPARCH_CSS.'/mediaelementplayer.css', array( 'sparch-style' ), SPARCH_VERSION );
 	wp_enqueue_style( 'fontawesome', SPARCH_CSS.'/all.min.css', array( 'sparch-style' ), SPARCH_VERSION );
 	wp_enqueue_style( 'sparch-icon-moon', SPARCH_CSS.'/icon-moon.css', array( 'sparch-style' ), SPARCH_VERSION );
