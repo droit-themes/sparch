@@ -53,7 +53,6 @@ function sparch_scripts() {
 	wp_enqueue_script( 'sparch-main', SPARCH_JS . '/main.js', array('jquery'), SPARCH_VERSION, true );
 
 
-
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -74,7 +73,6 @@ function sparch_scripts() {
             .header_area.navbar_fixed .main_menu .navbar .nav.navbar-nav > li > a{
                 color: $menu_font_color_sticky  !important;
             }";
-            
         }
     }
 
