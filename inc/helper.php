@@ -197,3 +197,25 @@ function custom_class( $classes ) {
 
     return $classes;
 }
+
+function sparch_fonts_url() {
+	$fonts_url = '';
+	$fonts     = array();
+	$subsets   = '';
+
+	/* Body font */
+	if ( 'off' !== 'on' ) {
+		$fonts[] = "Poppins:200,300,400,500,600,700,800,900";
+	}
+
+	$is_ssl = is_ssl() ? 'https' : 'http';
+
+	if ( $fonts ) {
+		$fonts_url = add_query_arg( array(
+			'family' => urlencode( implode( '|', $fonts ) ),
+			'subset' => urlencode( $subsets ),
+		), "$is_ssl://fonts.googleapis.com/css" );
+	}
+
+	return $fonts_url;
+}

@@ -3,31 +3,8 @@
  * Enqueue scripts and styles.
  */
 
-function sparch_fonts_url() {
-    $fonts_url = '';
-    $fonts     = array();
-    $subsets   = '';
-
-    /* Body font */
-    if ( 'off' !== 'on' ) {
-        $fonts[] = "Poppins:200,300,400,500,600,700,800,900";
-    }
-
-    $is_ssl = is_ssl() ? 'https' : 'http';
-
-    if ( $fonts ) {
-        $fonts_url = add_query_arg( array(
-            'family' => urlencode( implode( '|', $fonts ) ),
-            'subset' => urlencode( $subsets ),
-        ), "$is_ssl://fonts.googleapis.com/css" );
-    }
-
-    return $fonts_url;
-}
-
-
 function sparch_scripts() {
-	wp_enqueue_style('sparchfonts', sparch_fonts_url(), array(), null);
+	wp_enqueue_style('sparch-fonts', sparch_fonts_url(), array(), null);
 	wp_enqueue_style( 'sparch-style', get_stylesheet_uri(), array(), SPARCH_VERSION );
 
 	wp_enqueue_style( 'mediaelementplayer', SPARCH_CSS.'/mediaelementplayer.css', array( 'sparch-style' ), SPARCH_VERSION );

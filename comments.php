@@ -79,9 +79,9 @@ if ( post_password_required() ) {
 	$row_start = is_user_logged_in(  ) ? '<div class="row">':'';
 
 	$comment_fields = array(
-		'author' => '<div class="row"><div class="col-md-6 form-group"><input id="author" class="form-control" name="author" type="text" value="'.esc_attr( $commenter[ 'comment_author' ] ).'" placeholder="'.esc_attr( 'Your Name *', 'sparch' ).'" size="30" maxlength="245"  ' . $aria_req . '></div>',
-		'email' => '<div class="col-md-6 form-group"> <input id="email" class="form-control" name="email" type="email" value="'.esc_attr( $commenter[ 'comment_author_email' ] ).'" size="30" maxlength="100" placeholder="'.esc_attr( 'Your Email *', 'sparch' ).'" aria-describedby="email-notes" ' . $aria_req . '></div>',
-		'url' => '<div class="col-md-12 form-group"> <input id="url" placeholder="'.esc_attr( 'Your Website (optional)', 'sparch' ).'" class="form-control" name="url" type="url" value="" size="30" maxlength="200"></div>',
+		'author' => '<div class="row"><div class="col-md-6 form-group"><input id="author" class="form-control" name="author" type="text" value="'.esc_attr( $commenter[ 'comment_author' ] ).'" placeholder="'.esc_attr__( 'Your Name *', 'sparch' ).'" size="30" maxlength="245"  ' . $aria_req . '></div>',
+		'email' => '<div class="col-md-6 form-group"> <input id="email" class="form-control" name="email" type="email" value="'.esc_attr( $commenter[ 'comment_author_email' ] ).'" size="30" maxlength="100" placeholder="'.esc_attr__( 'Your Email *', 'sparch' ).'" aria-describedby="email-notes" ' . $aria_req . '></div>',
+		'url' => '<div class="col-md-12 form-group"> <input id="url" placeholder="'.esc_attr__( 'Your Website (optional)', 'sparch' ).'" class="form-control" name="url" type="url" value="" size="30" maxlength="200"></div>',
 	);
 
 	$defaults = array(

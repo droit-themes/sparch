@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Sparch\n"
-"POT-Creation-Date: 2021-11-30 13:56+0600\n"
+"POT-Creation-Date: 2022-01-03 18:14+0600\n"
 "PO-Revision-Date: 2021-06-14 15:10+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -38,6 +38,18 @@ msgstr ""
 
 #: comments.php:70
 msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:82
+msgid "Your Name *"
+msgstr ""
+
+#: comments.php:83
+msgid "Your Email *"
+msgstr ""
+
+#: comments.php:84
+msgid "Your Website (optional)"
 msgstr ""
 
 #: comments.php:90
@@ -140,23 +152,23 @@ msgstr ""
 msgid "Droit Header, Footer and MegaMenu Builder"
 msgstr ""
 
-#: inc/plugin_activation.php:76
-msgid "Advanced Custom Fields-pro"
-msgstr ""
-
-#: inc/plugin_activation.php:86
+#: inc/plugin_activation.php:75
 msgid "Slider Revolution"
 msgstr ""
 
-#: inc/plugin_activation.php:98
+#: inc/plugin_activation.php:85
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: inc/plugin_activation.php:90
 msgid "Redux Framework"
 msgstr ""
 
-#: inc/plugin_activation.php:104
+#: inc/plugin_activation.php:96
 msgid "Contact Form 7"
 msgstr ""
 
-#: inc/plugin_activation.php:110
+#: inc/plugin_activation.php:102
 msgid "One Click Demo Import"
 msgstr ""
 
@@ -203,7 +215,7 @@ msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:83 template-parts/content-page.php:39
+#: inc/template-tags.php:83 template-parts/content-page.php:34
 #, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
@@ -990,7 +1002,7 @@ msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
 #: template-parts/blog/content/content.php:53
-#: template-parts/content-page.php:25 template-parts/content.php:53
+#: template-parts/content-page.php:20 template-parts/content.php:53
 msgid "Pages:"
 msgstr ""
 
@@ -1048,8 +1060,4 @@ msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "https://themeforest.net/user/droitthemes"
-msgstr ""
-
-#. Template Name of the plugin/theme
-msgid "About us"
 msgstr ""
