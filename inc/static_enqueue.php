@@ -14,6 +14,7 @@ function sparch_scripts() {
 	wp_enqueue_style( 'sparch-style-main', get_theme_file_uri('/assets/css/style.css'), array(), SPARCH_VERSION );
 
 	wp_enqueue_style( 'sparch-extra-style', get_theme_file_uri('/assets/css/sparch-extra-style.css'), array(), SPARCH_VERSION );
+    wp_enqueue_style( 'sparch-woocommerce', get_theme_file_uri('/assets/css/woocommerce.css'), array(), SPARCH_VERSION );
     wp_enqueue_style( 'sparch-extra-responsive', get_theme_file_uri('/assets/css/responsive.css'), array(), SPARCH_VERSION );
    
     wp_enqueue_style( 'splitting', get_theme_file_uri('/assets/css/splitting.css'), array(), SPARCH_VERSION );

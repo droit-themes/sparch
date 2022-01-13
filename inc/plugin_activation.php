@@ -49,6 +49,12 @@ function sparch_resister_required_plugin() {
         ),
 
         array(
+            'name'               => esc_html__( 'WooCommerce', 'sparch' ),
+            'slug'               => 'woocommerce',
+            'required'           => true,
+        ),
+
+        array(
             'name'               => esc_html__( 'Sparch Core', 'sparch' ), // The plugin name.
             'slug'               => 'sparch-core', // The plugin slug (typically the folder name).
             'source'             => 'https://preview.droitthemes.net/wp/sparch/downloadfile/sparch-core.zip', // The plugin source.
