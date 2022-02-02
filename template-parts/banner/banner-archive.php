@@ -27,7 +27,7 @@ if(!class_exists('Redux')){
     <div class="container">
         <div class="breadcrumb_content text-center">
             <?php if(have_posts() && $how_title == 'show') {
-                        the_archive_title( '<h1 class="page-title page_title">', '</h1>' );
+                       the_archive_title( '<h1 class="page-title page_title">', '</h1>' );
                     }
                 if($show_breadcrumbs == 'show') {    
                 sparch_breadcrumbs(); 

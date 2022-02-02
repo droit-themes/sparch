@@ -16,8 +16,8 @@ get_header();
 $page_sidebar = sparch_options('sparch_page_setting');
 ?>
 	<main id="primary" class="site-main">
-	<?php get_template_part('template-parts/banner/banner', 'page'); ?>
-		<div class="container">
+	<?php get_template_part('template-parts/banner/banner', 'woo'); ?>
+		<div class="container woo">
         	<div class="row justify-content-center">
 				<?php   woocommerce_content(); ?>
 			</div>

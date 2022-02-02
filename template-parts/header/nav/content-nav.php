@@ -4,7 +4,6 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
             <?php 
-            
                 wp_nav_menu( array(
                         'menu_class' => 'navbar-nav menu ms-lg-auto',
                         'container'  => '',
@@ -14,7 +13,6 @@
                 ) ); 
 
             ?>
-            
         </div>
         <?php get_template_part( 'template-parts/header/nav/content-nav', 'serch'); ?>
     </div>
