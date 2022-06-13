@@ -19,7 +19,7 @@ $page_sidebar = sparch_options('sparch_page_setting');
 	<?php get_template_part('template-parts/banner/banner', 'woo'); ?>
 		<div class="container woo">
         	<div class="row justify-content-center">
-				<?php   woocommerce_content(); ?>
+				<?php woocommerce_content(); ?>
 			</div>
 		</div>
 	</main><!-- #main -->
