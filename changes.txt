@@ -1,3 +1,7 @@
+----- 1.0.4 (22 Sep  2022) -----
+Updated: deprecated function update
+Updated: Compatible with latest Elementor version
+
 ----- 1.0.3 (13 June  2022) -----
 Added: Droit Dark Mode 
 Updated: Compatible with latest WordPress version (6.0.0x)
