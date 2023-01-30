@@ -1,3 +1,10 @@
+----- 1.0.5 (30 January  2023) -----
+Fixed : Footer content customization option
+Fixed : Deprecated function updated
+Update : sparch-core file ( 1.0.2 ) updated
+Updated: Compatible with latest Elementor version
+
+
 ----- 1.0.4 (22 Sep  2022) -----
 Updated: deprecated function update
 Updated: Compatible with latest Elementor version

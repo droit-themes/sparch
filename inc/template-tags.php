@@ -261,7 +261,7 @@ function sparch_is_comment_by_post_author( $comment = null ) {
 			// sticky logo ratina 
 
 			if($sticky_ratina_sticky_url  != ''){
-				$sticky_ratina_attr = 'srcset="'.$default_sticky_logo.", ".$sticky_ratina_sticky_url." 2x".'"';
+				$sticky_ratina_attr = 'srcset="'.$sticky_logo_option.", ".$sticky_ratina_sticky_url." 2x".'"';
 			}
 
 			// page option logo 
