@@ -63,7 +63,7 @@ function sparch_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'Sparch Core', 'sparch' ), // The plugin name.
             'slug'               => 'sparch-core', // The plugin slug (typically the folder name).
-            'source'             => 'https://sparch.droitlab.com/downloadfile/sparch-core_1.0.2.zip', // The plugin source.
+            'source'             => 'https://dlsparch.droitlab.com/downloadfile/sparch-core_1.0.2.zip', // The plugin source.
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
@@ -75,7 +75,7 @@ function sparch_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'Slider Revolution', 'sparch' ), // The plugin name.
             'slug'               => 'slider-revolution', // The plugin slug (typically the folder name).
-            'source'             => 'https://wpplugin.droitthemes.net/revslider.zip', // The plugin source.
+            'source'             => 'https://plugindownload.droitlab.com/revslider.zip', // The plugin source.
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
