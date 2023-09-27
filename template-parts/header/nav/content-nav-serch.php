@@ -27,3 +27,4 @@ $sparch_aria_label = ! empty( $args['aria_label'] ) ? 'aria-label="' . esc_attr(
 
 <?php 
 endif;
+

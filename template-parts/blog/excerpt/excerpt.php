@@ -9,4 +9,11 @@
  * @since sparch 1.0
  */
 
-the_excerpt();
+ $opt = get_option( 'sparch' );
+ $blog_excerpt = isset($opt['blog_excerpt']) ? $opt['blog_excerpt'] : '';
+ ?>
+<div class="blog_excerpt">
+    <?php 
+    echo wp_trim_words(get_the_excerpt(), $blog_excerpt);
+    ?>
+</div>

@@ -18,10 +18,13 @@
 if ( post_password_required() ) {
 	return;
 }
+
+$opt = get_option( 'sparch' );
+$show_blogs = isset($opt['sparch_display_blog_comments']) ? $opt['sparch_display_blog_comments'] : '';
 ?>
 
 <div id="comments" class="comments-area blog_comment_inner">
-
+<?php if($show_blogs == 'yes'): ?>
 	<?php
 	// You can start editing here -- including this comment!
 	if ( have_comments() ) :
@@ -72,6 +75,7 @@ if ( post_password_required() ) {
 		endif;
 
 	endif; // Check for have_comments().
+endif;
 
 	$commenter		 = wp_get_current_commenter();
 	$require_name_email_in_form		 = get_option( 'require_name_email' );

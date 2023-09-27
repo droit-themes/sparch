@@ -16,6 +16,9 @@ get_header();
 
 $blog_sidebar = sparch_options('sparch_blog_setting');
 
+$opt = get_option( 'sparch' );
+$defult_blog_format = isset($opt['defult_blog_format']) ? $opt['defult_blog_format'] : '';
+
 ?>
 
 	<main id="primary" class="site-main">
@@ -33,20 +36,24 @@ $blog_sidebar = sparch_options('sparch_blog_setting');
 				</header>
 				<?php
 			endif;
-
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/blog/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) );
-
-			endwhile;
-
+			
+			if($defult_blog_format =='off'){
+				/* Start the Loop */
+					while ( have_posts() ) :
+						the_post();
+						get_template_part( 'template-parts/blog/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) );
+					endwhile;
+				}else{ ?>
+				<div class="_skin_2 dl_row  page type-page status-publish hentry">
+				<?php
+					while ( have_posts() ) :
+						the_post();
+						get_template_part( 'template-parts/blog/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'grid' ) );
+					endwhile;
+				echo '</div>';
+	
+				}
+				
 			sparch_pagination();
 
 		else :

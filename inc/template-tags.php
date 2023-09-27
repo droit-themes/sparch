@@ -105,9 +105,7 @@ if ( ! function_exists( 'sparch_entry_meta_footer' ) ) :
 	 * @return void
 	 */
 	function sparch_entry_meta_footer() {
-
-		$readmore_butotn_text = sparch_options('sparch_read_more_text_button', 'Read More');
-
+		$readmore_butotn_text = sparch_options('read_more_btn', 'Read More');
 	?>
 	<div class="post_bottom">
 		<a href="<?php echo esc_url( get_the_permalink()); ?>" class="learn_btn_two"><?php echo esc_html($readmore_butotn_text); ?></a>
@@ -305,16 +303,16 @@ function sparch_is_comment_by_post_author( $comment = null ) {
 	 }
  }
 
- /**
-  * About Author 
-  */
-
 if(!function_exists('sparch_about_author')) {
 	
 	function sparch_about_author() {
 		global $post;
 		$bio =  get_the_author_meta( 'description',$post->post_author);
-		if(!empty($bio)):
+
+		$opt = get_option( 'sparch' );
+		$show_author = isset($opt['sparch_display_blog_author']) ? $opt['sparch_display_blog_author'] : '';
+
+		if(!empty($bio) && $show_author=='yes'):
       ?>
 	  <div class="about-autheor">
 		<h3 class="comment-reply-title"><?php echo esc_html__( 'About the Author', 'sparch' ); ?></h3>

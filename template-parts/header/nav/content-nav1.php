@@ -21,8 +21,7 @@ $menu_layout_class = ($layout == 'no') ? 'container' : 'container-fulid';
                             'theme_location' => 'main_menu',
                             'walker'         => new sparch_Navwalker(),
                             'fallback_cb'     => false,
-                    ) ); 
-
+                    ) );
                  ?>
                 
                 </div>
