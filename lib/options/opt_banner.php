@@ -2,16 +2,17 @@
 
 Redux::set_section('sparch', array(
     'title'            => esc_html__( 'Banner Setting', 'sparch' ),
-    'id'               => 'headers_typo_opt',
+    'id'               => 'headers_banner_opt',
+    'customizer_width' => '400px',
     'icon'             => 'el el-picture',
 ));
 
 // Page Banner 
 Redux::set_section('sparch', array(
     'title'            => esc_html__( 'Page Banner', 'sparch' ),
-    'id'               => 'Banner',
-    'icon'             => 'el el-cog',
-    'subsection' => true,
+    'id'               => 'page_banner',
+    'icon'             => '',
+    'subsection'        => true,
     'fields'           => array(
         array(
             'id'       => 'sparch_page_banner_toggle',
@@ -74,7 +75,7 @@ Redux::set_section('sparch', array(
 Redux::set_section('sparch', array(
     'title'            => esc_html__( 'Blog Banner', 'sparch' ),
     'id'               => 'blog_banner',
-    'icon'             => 'el el-cog',
+    'icon'             => '',
     'subsection' => true,
     'fields'           => array(
         array(
@@ -145,7 +146,7 @@ Redux::set_section('sparch', array(
 Redux::set_section('sparch', array(
     'title'            => esc_html__( 'Single Blog Banner', 'sparch' ),
     'id'               => 'single_blog_banner',
-    'icon'             => 'el el-cog',
+    'icon'             => '',
     'subsection' => true,
     'fields'           => array(
         array(
@@ -209,7 +210,7 @@ Redux::set_section('sparch', array(
 Redux::set_section('sparch', array(
     'title'            => esc_html__( 'Archive Banner', 'sparch' ),
     'id'               => 'archive_blog_banner',
-    'icon'             => 'el el-cog',
+    'icon'             => '',
     'subsection' => true,
     'fields'           => array(
         array(

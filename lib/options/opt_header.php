@@ -93,7 +93,7 @@ Redux::set_section( 'sparch', array(
 ) );
 
 Redux::set_section( 'sparch', array(
-    'title'            => esc_html__( 'Menu Setting', 'sparch' ),
+    'title'            => esc_html__( 'Search Setting', 'sparch' ),
     'id'               => 'sparch_menu_setting',
     'icon'             => '',
     'subsection'       => true,

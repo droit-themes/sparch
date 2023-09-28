@@ -4250,7 +4250,7 @@
     }
 
     .ms-lg-auto {
-        margin-left: auto !important;
+        margin: auto;
     }
 
     .p-lg-0 {

@@ -1,20 +1,10 @@
 <?php
-// Header Section
-Redux::set_section( 'sparch', array(
-    'title'            => esc_html__( 'Page', 'sparch' ),
-    'id'               => 'sparch_page_sec',
-    'customizer_width' => '400px',
-    'icon'             => 'el el-adjust-alt',
-));
-
-// color 
-
-Redux::set_section( 'sparch', array(
-    'title'            => esc_html__( 'Layout', 'sparch' ),
-    'id'               => 'sparch_page_opt',
-    'subsection'       => true,
-    'icon'             => 'el el-cogs',
-    'fields'           => array(
+// page Title Bar
+Redux::set_section('sparch', array(
+	'title'     => esc_html__( 'Page Settings', 'sparch' ),
+	'id'        => 'sparch_page_layout',
+	'icon'      => 'dashicons dashicons-admin-post',
+	'fields'    => array(
       
         array(
             'id'       => 'sparch_page_setting',

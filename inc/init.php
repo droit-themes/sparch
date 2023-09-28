@@ -52,7 +52,9 @@ require SPARCH_THEMEROOT_DIR . '/inc/breadcrumbs.php';
 /**
  * Sparch Tgm
  */
-require SPARCH_THEMEROOT_DIR . '/inc/plugin_activation.php';
+require SPARCH_THEMEROOT_DIR . '/inc/tgm/class-plugins.php';
+require SPARCH_THEMEROOT_DIR . '/inc/tgm/tgm-plugin-activation.php';
+require SPARCH_THEMEROOT_DIR . '/inc/tgm/tgm-plugin-registration.php';
 
 
 /**

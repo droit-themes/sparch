@@ -1,7 +1,7 @@
 <?php
 // Blog Title Bar
 Redux::set_section('sparch', array(
-	'title'     => esc_html__( 'Blog Layout', 'sparch' ),
+	'title'     => esc_html__( 'Blog Settings', 'sparch' ),
 	'id'        => 'blog_titlebar_settings',
 	'icon'      => 'dashicons dashicons-admin-post',
 	'fields'    => array(

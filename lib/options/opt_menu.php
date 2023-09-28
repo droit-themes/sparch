@@ -8,6 +8,28 @@ Redux::setSection('sparch', array(
     'fields'           => array(
 
         array(
+            'id'       => 'sparch_menu_layout',
+            'type'     => 'image_select',
+            'title'    => __('Menu Layout', 'muffle'), 
+            'subtitle' => __('Select your menu layout', 'muffle'),
+            'options'  => array(
+                'start'      => array(
+                    'alt'   => 'Start', 
+                    'img'   => ReduxFramework::$_url.'assets/img/2cr.png'
+                ),
+                'center'      => array(
+                    'alt'   => 'Center', 
+                    'img'   => ReduxFramework::$_url.'assets/img/3cm.png'
+                ),
+                'end'      => array(
+                    'alt'   => 'End', 
+                    'img'   => ReduxFramework::$_url.'assets/img/2cr.png'
+                ),
+            ),
+            'default' => 'center'
+        ),
+
+        array(
             'title'     => esc_html__('Menu Bar Backgound Color', 'sparch'),
             'subtitle'  => esc_html__('Menu item font color', 'sparch'),
             'id'        => 'menu_bar_bg_color',
