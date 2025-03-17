@@ -28,7 +28,7 @@ class sparch_Register_Plugins {
 			array(
 				'name'               => esc_html__( 'Droit Addons For Elementor', 'sparch' ), // The plugin name.
 				'slug'               => 'droit-elementor-addons', // The plugin slug (typically the folder name).
-				'source'             => 'https://saasland.droitlab.com/downloadfile/droit-elementor-addons_3.1.5.zip', // The plugin source.
+				'source'             => 'https://plugindownload.droitlab.com/droit-elementor-addons.zip', // The plugin source.
 				'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 				'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
 				'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
@@ -40,7 +40,7 @@ class sparch_Register_Plugins {
 			array(
 				'name'               => esc_html__( 'Droit Dark', 'sparch' ), // The plugin name.
 				'slug'               => 'droit-dark-mode', // The plugin slug (typically the folder name).
-				'source'             => 'https://dlcarspa.droitlab.com/wp-content/plugins/droit-dark-mode.zip', // The plugin source.
+				'source'             => 'https://plugindownload.droitlab.com/droit-dark-mode.zip', // The plugin source.
 				'required'           => false, // If false, the plugin is only 'recommended' instead of required.
 				'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
 				'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
@@ -58,13 +58,13 @@ class sparch_Register_Plugins {
 			array(
 				'name'               => esc_html__( 'Sparch Core', 'sparch' ), // The plugin name.
 				'slug'               => 'sparch-core', // The plugin slug (typically the folder name).
-				'source'             => 'https://dlsparch.droitlab.com/downloadfile/sparch-core_1.0.2.zip', // The plugin source.
+				'source'             => 'https://dlsparch.droitlab.com/downloadfile/sparch-core_1.0.3.zip', // The plugin source.
 				'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 				'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
 				'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
 				'external_url'       => '', // If set, overrides default API URL and points to an external URL.
 				'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
-				'version'            => '1.0.2'
+				'version'            => '1.0.3'
 			),
 			
 			array(
